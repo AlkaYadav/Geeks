@@ -1,0 +1,13 @@
+/*
+ * CoinChange.cpp
+ *
+ *  Created on: Aug 12, 2015
+ *      Author: user
+ *      Description:Minimum no. of coins to make change
+ */
+void coinChange(int coins[],int noOfCoins,int sum){
+
+}
+
+
+

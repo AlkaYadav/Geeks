@@ -1,0 +1,38 @@
+/*
+ * LCS.cpp
+ *
+ *  Created on: Aug 13, 2015
+ *      Author: user
+ */
+#include<iostream>
+#include<cstring>
+using namespace std;
+
+int LCS_Recursive(char X[],char Y[],int m,int n){
+	if(m<=0|| n<=0){
+		return 0;
+	}
+	if(X[m-1]==Y[n-1]){
+		return 1+LCS_Recursive(X,Y,m-1,n-1);
+	}
+	else{
+		return max(LCS_Recursive(X,Y,m-1,n),LCS_Recursive(X,Y,m,n-1));
+	}
+}
+
+void LCS_DP(char X[],char Y[],int m,int n){
+	int lcs[m+1][n+1];
+	for(int i=0;i<=m;i++){
+		lcs[i][0]=0;
+	}
+	for(int j=0;j<=n;j++){
+			lcs[0][j]=0;
+		}
+}
+int main(){
+	char X[]="ABCDGH";
+	char Y[]="AEDFHR";
+	int m=strlen(X);
+	int n=strlen(Y);
+	cout<<"LCS is "<<LCS_Recursive(X,Y,m,n);
+}

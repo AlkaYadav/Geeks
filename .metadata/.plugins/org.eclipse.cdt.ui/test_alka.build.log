@@ -1,0 +1,15 @@
+10:05:06 **** Incremental Build of configuration Debug for project test_alka ****
+make all 
+'Building file: ../src/test_alka.cpp'
+'Invoking: Cross G++ Compiler'
+g++ -I"C:\MinGW\include" -I"C:\MinGW\include\c++" -I"C:\MinGW\lib\gcc\i686-pc-mingw32\5.1.0\include-fixed" -I"C:\MinGW\lib\gcc\i686-pc-mingw32\5.1.0\include" -I"C:\MinGW\include\c++\5.1.0\backward" -I"C:\MinGW\include\c++\5.1.0" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_alka.d" -MT"src/test_alka.d" -o "src/test_alka.o" "../src/test_alka.cpp"
+'Finished building: ../src/test_alka.cpp'
+' '
+'Building target: test_alka'
+'Invoking: Cross G++ Linker'
+g++  -o "test_alka"  ./src/test_alka.o   
+'Finished building target: test_alka'
+' '
+
+10:05:15 Build Finished (took 8s.883ms)
+

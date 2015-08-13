@@ -1,0 +1,17 @@
+/*
+ * 01Knapsack.cpp
+ *
+ *  Created on: Aug 12, 2015
+ *      Author: user
+ */
+
+int 01Knapsack_Recursive(int wt[],int val[],int n,int W){
+	if(n<0){
+		return 0;
+	}
+	if(wt[n-1]>W){
+		return 01Knapsack_Recursive(wt,val,n-1,W);
+	}
+}
+
+

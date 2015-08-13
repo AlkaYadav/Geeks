@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DynamicProgramming/src/DynamicProgramming.cpp&apos; to &apos;LIS.cpp&apos;" description="Rename resource &apos;DynamicProgramming.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/DynamicProgramming.cpp" name="LIS.cpp" stamp="1439297445294" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DynamicProgramming/src/01Knapsack.cpp&apos; to &apos;Knapsack.cpp&apos;" description="Rename resource &apos;01Knapsack.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/01Knapsack.cpp" name="Knapsack.cpp" stamp="1439365745640" updateReferences="true"/>
+</session>

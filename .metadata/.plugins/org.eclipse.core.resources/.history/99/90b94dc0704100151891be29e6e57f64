@@ -1,0 +1,12 @@
+/*
+ * LCS.cpp
+ *
+ *  Created on: Aug 13, 2015
+ *      Author: user
+ */
+
+void LCS(char X[],char Y[],int m,int n){
+
+}
+
+

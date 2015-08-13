@@ -1,0 +1,12 @@
+01:04:51 **** Clean-only build of configuration Debug for project test_c ****
+make clean 
+rm -rf  ./src/test_c.o  ./src/test_c.d  test_c
+makefile:38: recipe for target 'clean' failed
+process_begin: CreateProcess(NULL, rm -rf ./src/test_c.o ./src/test_c.d test_c, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make: [clean] Error 2 (ignored)
+' '
+
+01:04:52 Build Finished (took 140ms)
+

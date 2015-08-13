@@ -1,0 +1,16 @@
+/*
+ * MaxSumIncrSubseq.cpp
+ *
+ *  Created on: Aug 13, 2015
+ *      Author: user
+ */
+void maximumSumIncreasingSubseq(int arr[],int n){
+	int mis[n];
+	for(int i=0;i<n;i++){
+		mis[i]=arr[i];
+	}
+
+}
+
+
+

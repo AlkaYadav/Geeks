@@ -1,0 +1,28 @@
+/*
+ * EditDistance.cpp
+ *
+ *  Created on: Aug 11, 2015
+ *      Author: user
+ */
+#include<stdlib.h>
+void editDistance(char X[],char Y[],int m,int n){
+	int edit[m+1][n+1];
+	int delcost,inscost,samecost;
+	//Initialize table
+	for(int i=0;i<=m;i++){
+		for(int j=0;j<=n;j++){
+			edit[0][j]=j;
+			edit[i][0]=i;
+		}
+	}
+
+	for(int i=1;i<=m;i++){
+			for(int j=1;j<=n;j++){
+				delcost=edit[i-1][j]+1;
+				inscost=edit[i][j-1]+1;
+				samecost=X[i-1]==Y[j-1]?0:1;
+				edit[i][j]=min(delcost,min(inscost,samecost));
+			}
+}
+
+

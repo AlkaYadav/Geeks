@@ -1,0 +1,44 @@
+//============================================================================
+// Name        : GeeksProject.cpp
+// Author      : alkayadav
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+void insertRandom();
+BSTNode * insert(int newdata);
+class SinglyLinkedNode{
+	SinglyLinkedNode* next;
+	int data;
+	friend class LinkedListToCompleteBinaryTree;
+};
+
+class BinaryTreeNode{
+	BinaryTreeNode *left;
+	BinaryTreeNode *right;
+	int data;
+	friend class LinkedListToCompleteBinaryTree;
+};
+void insertRandom(){
+	root=insert(5);
+	root->left=insert(2);
+	root->right=insert(10);
+	root->left->left=insert(1);
+	root->left->right=insert(3);
+}
+
+BSTNode * insert(int newdata){
+	BSTNode *newnode = new BSTNode();
+	newnode->left = NULL;
+	newnode->right = NULL;
+	newnode->data = newdata;
+	cout<<"inserted data "<<newdata<<"successfully"<<endl;
+	return newnode;
+}
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

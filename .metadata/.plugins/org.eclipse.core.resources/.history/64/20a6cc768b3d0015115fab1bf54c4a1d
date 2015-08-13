@@ -1,0 +1,50 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Aug 6, 2015
+ *      Author: user
+ */
+#include "BinaryTreeGeeks.h"
+int main(){
+	LinkedListToCompleteBinaryTree llcb;
+	llcb.insertRandomLinkedList();
+	llcb.linkedListToCompleteBinaryTree();
+	/*
+	cout<<"Converting binary tree to doubly linked list"<<endl;
+	llcb.convertBinaryTreeToDoubly();
+	cout<<"Converting binary tree to doubly linked list Set2"<<endl;
+	llcb.convertBinaryTreeToDoublySet2();
+
+	cout<<endl<<"Converting binary tree to doubly linked list Set1"<<endl;
+	llcb.convertBinaryTreeToDoublySet1();
+	llcb.insertCompleteBinaryTree();
+	cout<<"Largest independent set is"<<llcb.LISS();
+
+	cout<<"Lowest common Ancestor "<<endl;
+	llcb.LCAPrint(10,55);
+	cout<<"----------------------------------------------------------------"<<endl;
+	cout<<endl<<"Find distance between two given nodes in binary tree "<<llcb.findDist(36,15)<<endl;
+	llcb.findSum();
+
+	cout<<endl<<"Remove all nodes which don’t lie in any path with sum>= k"<<endl;
+	llcb.removeAllPathsSumLessThanK(9);
+
+	cout<<endl<<"Print ancestors of a node without recursion"<<endl;
+	llcb.printAncestorsWithoutRecursion(6);
+
+	cout<<endl<<"Difference between odd and even levels of a binary tree "<<llcb.diff()<<endl;
+	cout<<endl<<"Depth of deepest odd level left leaf node a binary tree"<<endl;
+	llcb.depthLeftLeaf();
+
+	cout<<endl<<"Check if all leaves are at same level in a binary tree="<<llcb.checkLeavesLevel()<<endl;
+
+	cout<<endl<<"Extract Leaves of a Binary Tree in a Doubly Linked List "<<endl;
+	llcb.extractLeaves();
+
+	cout<<endl<<"Check if a given Binary Tree is height balanced like a Red-Black Tree "<<llcb.isBalancedLikeRedBlackHelper();
+	*/
+	cout<<endl<<"Print all nodes at distance k from a given node "<<endl;
+	llcb.printAllNodesAtK(15,2);
+}
+
+

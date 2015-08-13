@@ -1,0 +1,13 @@
+/*
+ * EditDistance.cpp
+ *
+ *  Created on: Aug 11, 2015
+ *      Author: user
+ */
+
+void editDistance(char X[],char Y[],int m.int n){
+	int edit[m+1][n+1];
+
+}
+
+

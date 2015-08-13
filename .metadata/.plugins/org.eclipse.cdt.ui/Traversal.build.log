@@ -1,0 +1,5 @@
+09:45:45 **** Clean-only build of configuration Debug for project Traversal ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+
+09:45:46 Build Finished (took 155ms)
+

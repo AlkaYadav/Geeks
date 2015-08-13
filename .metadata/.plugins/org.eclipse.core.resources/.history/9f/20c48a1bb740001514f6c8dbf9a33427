@@ -1,0 +1,22 @@
+/*
+ * BinomialCoefficient.cpp
+ *
+ *  Created on: Aug 12, 2015
+ *      Author: user
+ */
+
+
+void binomialCoefficient(int n,int k){
+	int binomial[n][k];
+	int i,j;
+	for(i=1;i<=n;i++){
+		binomial[i][0]=1;
+		binomial[i][i]=1;
+	}
+	for(i=0;i<=n;i++){
+		for(j=i;j<=n;j++){
+
+		}
+	}
+}
+

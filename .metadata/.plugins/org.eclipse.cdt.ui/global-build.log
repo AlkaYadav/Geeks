@@ -1,0 +1,1714 @@
+14:50:27 **** Rebuild of configuration Debug for project GeeksProject ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\GeeksProject.o" "..\\src\\GeeksProject.cpp" 
+g++ -o GeeksProject.exe "src\\GeeksProject.o" 
+C:/MinGW/i686-pc-mingw32/lib/libmingw32.a(lib32_libmingw32_a-crt0_c.o):crt0_c.c:(.text+0x3c): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+15:12:16 **** Rebuild of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+..\src\DynamicProgramming.cpp: In function 'int longestIncreaingSubsequence(int*, int)':
+..\src\DynamicProgramming.cpp:33:1: warning: control reaches end of non-void function [-Wreturn-type]
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+15:19:48 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+Info: Nothing to build for DynamicProgramming
+17:11:36 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+17:12:01 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+17:12:32 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+17:13:38 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+..\src\DynamicProgramming.cpp: In function 'int longestIncreaingSubsequence(int*, int)':
+..\src\DynamicProgramming.cpp:32:10: error: 'free' was not declared in this scope
+17:14:19 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+..\src\DynamicProgramming.cpp: In function 'int longestIncreaingSubsequence(int*, int)':
+..\src\DynamicProgramming.cpp:33:10: error: 'free' was not declared in this scope
+17:14:27 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+Info: Nothing to build for DynamicProgramming
+17:18:06 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+17:19:36 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+17:20:21 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+17:20:42 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+17:31:27 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+..\src\DynamicProgramming.cpp: In function 'int longestIncreaingSubsequence(int*, int)':
+..\src\DynamicProgramming.cpp:15:28: error: expected initializer before '*' token
+..\src\DynamicProgramming.cpp:19:3: error: 'res' was not declared in this scope
+..\src\DynamicProgramming.cpp:26:5: error: 'res' was not declared in this scope
+..\src\DynamicProgramming.cpp:33:4: error: 'max_lis' was not declared in this scope
+..\src\DynamicProgramming.cpp:37:4: error: 'max_lis' was not declared in this scope
+..\src\DynamicProgramming.cpp:39:13: error: 'res' was not declared in this scope
+17:31:41 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+..\src\DynamicProgramming.cpp: In function 'int longestIncreaingSubsequence(int*, int)':
+..\src\DynamicProgramming.cpp:15:28: error: expected initializer before '*' token
+..\src\DynamicProgramming.cpp:17:2: error: 'res' was not declared in this scope
+..\src\DynamicProgramming.cpp:34:4: error: 'max_lis' was not declared in this scope
+..\src\DynamicProgramming.cpp:38:4: error: 'max_lis' was not declared in this scope
+17:31:51 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+17:32:09 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+..\src\DynamicProgramming.cpp: In function 'int longestIncreaingSubsequence(int*, int)':
+..\src\DynamicProgramming.cpp:39:2: error: expected ';' before 'i'
+17:32:21 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+17:33:24 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+17:34:32 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+17:36:55 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+17:43:49 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+17:44:42 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+..\src\DynamicProgramming.cpp: In function 'int longestIncreaingSubsequence(int*, int)':
+..\src\DynamicProgramming.cpp:43:16: error: expected ';' before '{' token
+17:44:53 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+17:46:06 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DynamicProgramming.o" "..\\src\\DynamicProgramming.cpp" 
+g++ -o DynamicProgramming.exe "src\\DynamicProgramming.o" 
+18:28:26 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp:40:2: error: stray '\342' in program
+..\src\LCS.cpp:40:2: error: stray '\200' in program
+..\src\LCS.cpp:40:2: error: stray '\234' in program
+..\src\LCS.cpp:40:2: error: stray '\342' in program
+..\src\LCS.cpp:40:2: error: stray '\200' in program
+..\src\LCS.cpp:40:2: error: stray '\235' in program
+..\src\LCS.cpp:41:2: error: stray '\342' in program
+..\src\LCS.cpp:41:2: error: stray '\200' in program
+..\src\LCS.cpp:41:2: error: stray '\234' in program
+..\src\LCS.cpp:41:2: error: stray '\342' in program
+..\src\LCS.cpp:41:2: error: stray '\200' in program
+..\src\LCS.cpp:41:2: error: stray '\235' in program
+..\src\LCS.cpp: In function 'int main()':
+..\src\LCS.cpp:40:13: error: 'ABCDGH' was not declared in this scope
+..\src\LCS.cpp:41:14: error: 'AEDFHR' was not declared in this scope
+..\src\LCS.cpp:40:8: warning: unused variable 'X' [-Wunused-variable]
+..\src\LCS.cpp:41:8: warning: unused variable 'Y' [-Wunused-variable]
+18:29:04 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp:41:2: error: stray '\342' in program
+..\src\LCS.cpp:41:2: error: stray '\200' in program
+..\src\LCS.cpp:41:2: error: stray '\234' in program
+..\src\LCS.cpp:41:2: error: stray '\342' in program
+..\src\LCS.cpp:41:2: error: stray '\200' in program
+..\src\LCS.cpp:41:2: error: stray '\235' in program
+..\src\LCS.cpp:42:2: error: stray '\342' in program
+..\src\LCS.cpp:42:2: error: stray '\200' in program
+..\src\LCS.cpp:42:2: error: stray '\234' in program
+..\src\LCS.cpp:42:2: error: stray '\342' in program
+..\src\LCS.cpp:42:2: error: stray '\200' in program
+..\src\LCS.cpp:42:2: error: stray '\235' in program
+..\src\LCS.cpp: In function 'int main()':
+..\src\LCS.cpp:41:13: error: 'ABCDGH' was not declared in this scope
+..\src\LCS.cpp:42:14: error: 'AEDFHR' was not declared in this scope
+18:29:30 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp:41:2: error: stray '\342' in program
+..\src\LCS.cpp:41:2: error: stray '\200' in program
+..\src\LCS.cpp:41:2: error: stray '\234' in program
+..\src\LCS.cpp:41:2: error: stray '\342' in program
+..\src\LCS.cpp:41:2: error: stray '\200' in program
+..\src\LCS.cpp:41:2: error: stray '\235' in program
+..\src\LCS.cpp:42:2: error: stray '\342' in program
+..\src\LCS.cpp:42:2: error: stray '\200' in program
+..\src\LCS.cpp:42:2: error: stray '\234' in program
+..\src\LCS.cpp:42:2: error: stray '\342' in program
+..\src\LCS.cpp:42:2: error: stray '\200' in program
+..\src\LCS.cpp:42:2: error: stray '\235' in program
+..\src\LCS.cpp: In function 'int main()':
+..\src\LCS.cpp:41:14: error: 'ABCDGH' was not declared in this scope
+..\src\LCS.cpp:42:15: error: 'AEDFHR' was not declared in this scope
+18:29:38 **** Clean-only build of configuration Debug for project BinaryTreeGeeks ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+rm -rf src/BinaryTreeGeeks.o src/BinaryTreeGeeks.d src/main.o BinaryTreeGeeks.exe src/main.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_51/bin/client;C:/Program Files/Java/jre1.8.0_51/bin;C:/Program Files/Java/jre1.8.0_51/lib/i386;C:\MinGW\bin;C:\MinGW\libexec\gcc\i686-pc-mingw32\4.7.3;C:\MinGW\libexec\gcc\i686-pc-mingw32\5.1.0;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Skype\Phone\;C:\Program Files\eclipse]
+
+18:29:38 **** Clean-only build of configuration Debug for project BinaryTreeGeeks ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+18:29:39 **** Clean-only build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+rm -rf DynamicProgramming.exe src/LIS.o src/LCS.d src/LCS.o src/LIS.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_51/bin/client;C:/Program Files/Java/jre1.8.0_51/bin;C:/Program Files/Java/jre1.8.0_51/lib/i386;C:\MinGW\bin;C:\MinGW\libexec\gcc\i686-pc-mingw32\4.7.3;C:\MinGW\libexec\gcc\i686-pc-mingw32\5.1.0;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Skype\Phone\;C:\Program Files\eclipse]
+
+18:29:39 **** Clean-only build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+18:31:08 **** Rebuild of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+src\LCS.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming\Debug/../src/LCS.cpp:40: multiple definition of `main'
+src\LIS.o:C:\Users\user\workspace\DynamicProgramming\Debug/../src/LIS.cpp:49: first defined here
+collect2.exe: error: ld returned 1 exit status
+18:31:34 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+19:02:46 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'void LCS(char*, char*, int, int)':
+..\src\LCS.cpp:38:2: error: name lookup of 'i' changed for ISO 'for' scoping [-fpermissive]
+..\src\LCS.cpp:38:2: note: (if you use '-fpermissive' G++ will accept your code)
+..\src\LCS.cpp:39:2: error: 'j' was not declared in this scope
+19:05:31 **** Clean-only build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+rm -rf DynamicProgramming.exe src/LIS.o src/LCS.d src/LCS.o src/LIS.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_51/bin/client;C:/Program Files/Java/jre1.8.0_51/bin;C:/Program Files/Java/jre1.8.0_51/lib/i386;C:\MinGW\bin;C:\MinGW\libexec\gcc\i686-pc-mingw32\4.7.3;C:\MinGW\libexec\gcc\i686-pc-mingw32\5.1.0;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Skype\Phone\;C:\Program Files\eclipse]
+
+19:05:31 **** Clean-only build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+19:05:34 **** Rebuild of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+Info: Nothing to build for DynamicProgramming
+19:06:00 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+19:07:48 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+19:08:34 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+19:09:11 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+19:09:59 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'void LCS(char*, char*, int, int)':
+..\src\LCS.cpp:14:10: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+19:10:34 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'void LCS(char*, char*, int, int)':
+..\src\LCS.cpp:14:10: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+19:11:30 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'void LCS(char*, char*, int, int)':
+..\src\LCS.cpp:14:10: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+19:12:18 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'void LCS(char*, char*, int, int)':
+..\src\LCS.cpp:14:10: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+19:14:16 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'void LCS(char*, char*, int, int)':
+..\src\LCS.cpp:14:10: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+19:16:36 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'void LCS(char*, char*, int, int)':
+..\src\LCS.cpp:14:10: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+19:18:52 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'void LCS(char*, char*, int, int)':
+..\src\LCS.cpp:14:10: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+19:20:07 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'void LCS(char*, char*, int, int)':
+..\src\LCS.cpp:14:10: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+19:21:35 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'void LCS(char*, char*, int, int)':
+..\src\LCS.cpp:14:10: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" 
+22:20:22 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'void LCS(char*, char*, int, int)':
+..\src\LCS.cpp:14:10: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+..\src\EditDistance.cpp: In function 'void editDistance(char*, char*, int, int)':
+..\src\EditDistance.cpp:24:48: error: 'min' was not declared in this scope
+..\src\EditDistance.cpp:24:49: error: 'min' was not declared in this scope
+..\src\EditDistance.cpp:24:49: error: redeclaration of '<typeprefixerror>min'
+..\src\EditDistance.cpp:24:48: note: previous declaration '<typeprefixerror>min'
+..\src\EditDistance.cpp:26:1: error: expected '}' at end of input
+22:20:31 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+..\src\EditDistance.cpp: In function 'void editDistance(char*, char*, int, int)':
+..\src\EditDistance.cpp:24:48: error: 'min' was not declared in this scope
+..\src\EditDistance.cpp:24:49: error: 'min' was not declared in this scope
+..\src\EditDistance.cpp:24:49: error: redeclaration of '<typeprefixerror>min'
+..\src\EditDistance.cpp:24:48: note: previous declaration '<typeprefixerror>min'
+..\src\EditDistance.cpp:26:1: error: expected '}' at end of input
+22:20:52 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+..\src\EditDistance.cpp:7:21: fatal error: iostream.h: No such file or directory
+compilation terminated.
+22:21:06 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+..\src\EditDistance.cpp: In function 'void editDistance(char*, char*, int, int)':
+..\src\EditDistance.cpp:27:1: error: expected '}' at end of input
+22:23:39 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+..\src\EditDistance.cpp: In function 'int main()':
+..\src\EditDistance.cpp:34:27: error: 'strlen' was not declared in this scope
+22:23:55 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" 
+src\EditDistance.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming\Debug/../src/EditDistance.cpp:32: multiple definition of `main'
+src\LCS.o:C:\Users\user\workspace\DynamicProgramming\Debug/../src/LCS.cpp:72: first defined here
+collect2.exe: error: ld returned 1 exit status
+22:24:00 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" 
+src\EditDistance.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming\Debug/../src/EditDistance.cpp:32: multiple definition of `main'
+src\LCS.o:C:\Users\user\workspace\DynamicProgramming\Debug/../src/LCS.cpp:72: first defined here
+collect2.exe: error: ld returned 1 exit status
+22:24:21 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" 
+22:25:48 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" 
+22:27:41 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+..\src\EditDistance.cpp: In function 'void editDistance(char*, char*, int, int)':
+..\src\EditDistance.cpp:28:14: error: expected primary-expression before '=' token
+..\src\EditDistance.cpp:29:14: error: expected primary-expression before '=' token
+..\src\EditDistance.cpp:30:15: error: expected primary-expression before '=' token
+22:33:45 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+..\src\EditDistance.cpp: In function 'void editDistance(char*, char*, int, int)':
+..\src\EditDistance.cpp:28:28: warning: statement has no effect [-Wunused-value]
+..\src\EditDistance.cpp:29:28: warning: statement has no effect [-Wunused-value]
+..\src\EditDistance.cpp:30:50: warning: statement has no effect [-Wunused-value]
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" 
+22:35:15 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" 
+22:36:55 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" 
+22:38:12 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+g++ -o DynamicProgramming.exe "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" 
+23:10:47 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MinCostPath.o" "..\\src\\MinCostPath.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" 
+src\EditDistance.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming\Debug/../src/EditDistance.cpp:45: multiple definition of `main'
+src\MinCostPath.o:C:\Users\user\workspace\DynamicProgramming\Debug/../src/MinCostPath.cpp:40: first defined here
+collect2.exe: error: ld returned 1 exit status
+23:11:19 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" 
+23:19:24 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MinCostPath.o" "..\\src\\MinCostPath.cpp" 
+..\src\MinCostPath.cpp: In function 'void minCostPath(int (*)[3], int, int)':
+..\src\MinCostPath.cpp:50:20: error: 'min' cannot be used as a function
+..\src\MinCostPath.cpp:51:19: error: 'min' cannot be used as a function
+23:20:12 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MinCostPath.o" "..\\src\\MinCostPath.cpp" 
+..\src\MinCostPath.cpp: In function 'void minCostPath(int (*)[3], int, int)':
+..\src\MinCostPath.cpp:51:20: error: no matching function for call to 'min(<unresolved overloaded function type>, int&)'
+..\src\MinCostPath.cpp:51:20: note: candidates are:
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/char_traits.h:41:0,
+                 from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ios:41,
+                 from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:40,
+                 from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40,
+                 from ..\src\MinCostPath.cpp:10:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/stl_algobase.h:187:5: note: const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = int]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/stl_algobase.h:187:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const int&'
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/stl_algobase.h:233:5: note: template<class _Tp, class _Compare> const _Tp& std::min(const _Tp&, const _Tp&, _Compare)
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/stl_algobase.h:233:5: note:   template argument deduction/substitution failed:
+..\src\MinCostPath.cpp:51:20: note:   candidate expects 3 arguments, 2 provided
+23:20:22 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MinCostPath.o" "..\\src\\MinCostPath.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" 
+Info: Nothing to build for DynamicProgramming
+23:21:17 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MinCostPath.o" "..\\src\\MinCostPath.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" 
+07:49:59 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+..\src\CoinChange.cpp: In function 'void coinChange(int*, int, int)':
+..\src\CoinChange.cpp:14:5: error: 'INT_MAX' was not declared in this scope
+..\src\CoinChange.cpp:17:30: error: 'min' was not declared in this scope
+..\src\CoinChange.cpp:27:2: error: 'cout' was not declared in this scope
+..\src\CoinChange.cpp:27:49: error: 'endl' was not declared in this scope
+07:50:15 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+..\src\CoinChange.cpp: In function 'void coinChange(int*, int, int)':
+..\src\CoinChange.cpp:18:30: error: 'min' was not declared in this scope
+..\src\CoinChange.cpp:21:12: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+..\src\CoinChange.cpp:28:2: error: 'cout' was not declared in this scope
+..\src\CoinChange.cpp:28:49: error: 'endl' was not declared in this scope
+07:50:35 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+..\src\CoinChange.cpp: In function 'void coinChange(int*, int, int)':
+..\src\CoinChange.cpp:23:12: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+07:50:46 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+07:52:06 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+src\CoinChange.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming\Debug/../src/CoinChange.cpp:33: multiple definition of `main'
+src\MinCostPath.o:C:\Users\user\workspace\DynamicProgramming\Debug/../src/MinCostPath.cpp:67: first defined here
+collect2.exe: error: ld returned 1 exit status
+07:52:36 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MinCostPath.o" "..\\src\\MinCostPath.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+07:53:57 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+07:54:10 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+08:01:00 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+08:01:47 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+08:02:22 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+08:10:24 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+08:13:30 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+08:14:00 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+08:15:31 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+08:18:21 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+08:18:55 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+08:20:23 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+10:39:30 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+src\CoinChange.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming\Debug/../src/CoinChange.cpp:48: multiple definition of `main'
+src\MatrixChainMultiplication.o:C:\Users\user\workspace\DynamicProgramming\Debug/../src/MatrixChainMultiplication.cpp:38: first defined here
+collect2.exe: error: ld returned 1 exit status
+10:39:56 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+10:40:35 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+10:41:29 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+10:41:56 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+10:43:27 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+10:44:38 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+10:45:59 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+10:49:30 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+10:57:22 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+..\src\MatrixChainMultiplication.cpp: In function 'int main()':
+..\src\MatrixChainMultiplication.cpp:57:6: warning: unused variable 'n' [-Wunused-variable]
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+10:57:42 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+..\src\MatrixChainMultiplication.cpp: In function 'int main()':
+..\src\MatrixChainMultiplication.cpp:57:6: warning: unused variable 'n' [-Wunused-variable]
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:01:10 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:03:06 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:04:20 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:05:44 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+..\src\MatrixChainMultiplication.cpp: In function 'void matrixChainMultiply(int*, int)':
+..\src\MatrixChainMultiplication.cpp:66:11: error: a function-definition is not allowed here before '{' token
+..\src\MatrixChainMultiplication.cpp:71:1: error: expected '}' at end of input
+11:06:23 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:07:24 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:08:29 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:09:19 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:12:08 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:15:26 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+..\src\MatrixChainMultiplication.cpp: In function 'int main()':
+..\src\MatrixChainMultiplication.cpp:65:6: warning: unused variable 'n' [-Wunused-variable]
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:16:51 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+..\src\MatrixChainMultiplication.cpp: In function 'int main()':
+..\src\MatrixChainMultiplication.cpp:65:6: warning: unused variable 'n' [-Wunused-variable]
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:17:22 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+..\src\MatrixChainMultiplication.cpp: In function 'int main()':
+..\src\MatrixChainMultiplication.cpp:65:6: warning: unused variable 'n' [-Wunused-variable]
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:18:22 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+..\src\MatrixChainMultiplication.cpp: In function 'int main()':
+..\src\MatrixChainMultiplication.cpp:66:6: warning: unused variable 'n' [-Wunused-variable]
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:19:04 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+..\src\MatrixChainMultiplication.cpp: In function 'int main()':
+..\src\MatrixChainMultiplication.cpp:67:6: warning: unused variable 'n' [-Wunused-variable]
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:20:42 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:21:56 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" 
+11:33:30 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+C:/MinGW/i686-pc-mingw32/lib/libmingw32.a(lib32_libmingw32_a-crt0_c.o):crt0_c.c:(.text+0x3c): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+11:34:08 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+..\src\BinomialCoefficient.cpp: In function 'int main()':
+..\src\BinomialCoefficient.cpp:27:59: error: no match for 'operator<<' in 'std::operator<< <std::char_traits<char> >((* & std::cout), ((const char*)"Binomial Coefficient is ")) << binomialCoefficient(5, 2)'
+..\src\BinomialCoefficient.cpp:27:59: note: candidates are:
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40:0,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:106:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:106:7: note:   no known conversion for argument 1 from 'void' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:115:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:115:7: note:   no known conversion for argument 1 from 'void' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:125:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:125:7: note:   no known conversion for argument 1 from 'void' to 'std::ios_base& (*)(std::ios_base&)'
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:164:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:164:7: note:   no known conversion for argument 1 from 'void' to 'long int'
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:168:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:168:7: note:   no known conversion for argument 1 from 'void' to 'long unsigned int'
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:172:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:172:7: note:   no known conversion for argument 1 from 'void' to 'bool'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:607:0,
+                 from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/ostream.tcc:93:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/ostream.tcc:93:5: note:   no known conversion for argument 1 from 'void' to 'short int'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40:0,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:179:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:179:7: note:   no known conversion for argument 1 from 'void' to 'short unsigned int'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:607:0,
+                 from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/ostream.tcc:107:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/ostream.tcc:107:5: note:   no known conversion for argument 1 from 'void' to 'int'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40:0,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:190:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:190:7: note:   no known conversion for argument 1 from 'void' to 'unsigned int'
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:199:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:199:7: note:   no known conversion for argument 1 from 'void' to 'long long int'
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:203:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:203:7: note:   no known conversion for argument 1 from 'void' to 'long long unsigned int'
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:218:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:218:7: note:   no known conversion for argument 1 from 'void' to 'double'
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:222:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:222:7: note:   no known conversion for argument 1 from 'void' to 'float'
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:230:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:230:7: note:   no known conversion for argument 1 from 'void' to 'long double'
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:243:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:243:7: note:   no known conversion for argument 1 from 'void' to 'const void*'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:607:0,
+                 from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/ostream.tcc:121:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/ostream.tcc:121:5: note:   no known conversion for argument 1 from 'void' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/string:54:0,
+                 from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/locale_classes.h:42,
+                 from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/ios_base.h:43,
+                 from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ios:43,
+                 from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:40,
+                 from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/basic_string.h:2750:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/basic_string.h:2750:5: note:   template argument deduction/substitution failed:
+..\src\BinomialCoefficient.cpp:27:59: note:   mismatched types 'const std::basic_string<_CharT, _Traits, _Alloc>' and 'void'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40:0,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:469:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:469:5: note:   template argument deduction/substitution failed:
+..\src\BinomialCoefficient.cpp:27:59: note:   deduced conflicting types for parameter '_CharT' ('char' and 'void')
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40:0,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:474:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:474:5: note:   template argument deduction/substitution failed:
+..\src\BinomialCoefficient.cpp:27:59: note:   cannot convert 'binomialCoefficient(5, 2)' (type 'void') to type 'char'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40:0,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:480:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:480:5: note:   template argument deduction/substitution failed:
+..\src\BinomialCoefficient.cpp:27:59: note:   cannot convert 'binomialCoefficient(5, 2)' (type 'void') to type 'char'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40:0,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:486:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:486:5: note:   template argument deduction/substitution failed:
+..\src\BinomialCoefficient.cpp:27:59: note:   cannot convert 'binomialCoefficient(5, 2)' (type 'void') to type 'signed char'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40:0,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:491:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:491:5: note:   template argument deduction/substitution failed:
+..\src\BinomialCoefficient.cpp:27:59: note:   cannot convert 'binomialCoefficient(5, 2)' (type 'void') to type 'unsigned char'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40:0,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:511:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:511:5: note:   template argument deduction/substitution failed:
+..\src\BinomialCoefficient.cpp:27:59: note:   mismatched types 'const _CharT*' and 'void'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:607:0,
+                 from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/ostream.tcc:323:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/bits/ostream.tcc:323:5: note:   template argument deduction/substitution failed:
+..\src\BinomialCoefficient.cpp:27:59: note:   cannot convert 'binomialCoefficient(5, 2)' (type 'void') to type 'const char*'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40:0,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:528:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:528:5: note:   template argument deduction/substitution failed:
+..\src\BinomialCoefficient.cpp:27:59: note:   cannot convert 'binomialCoefficient(5, 2)' (type 'void') to type 'const char*'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40:0,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:541:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:541:5: note:   template argument deduction/substitution failed:
+..\src\BinomialCoefficient.cpp:27:59: note:   cannot convert 'binomialCoefficient(5, 2)' (type 'void') to type 'const signed char*'
+In file included from c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/iostream:40:0,
+                 from ..\src\BinomialCoefficient.cpp:8:
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:546:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+c:\mingw\bin\../lib/gcc/i686-pc-mingw32/4.7.3/../../../../include/c++/4.7.3/ostream:546:5: note:   template argument deduction/substitution failed:
+..\src\BinomialCoefficient.cpp:27:59: note:   cannot convert 'binomialCoefficient(5, 2)' (type 'void') to type 'const unsigned char*'
+11:34:38 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+11:36:09 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+..\src\BinomialCoefficient.cpp: In function 'int binomialCoefficient_Recursion(int, int)':
+..\src\BinomialCoefficient.cpp:15:36: error: 'binomialCoefficient' was not declared in this scope
+..\src\BinomialCoefficient.cpp:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+11:36:27 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+11:40:29 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+11:41:16 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+11:46:03 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+11:48:16 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+11:48:38 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+12:01:36 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+12:02:37 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+13:18:47 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01Knapsack.o" "..\\src\\01Knapsack.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" "src\\01Knapsack.o" 
+13:19:29 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Knapsack.o" "..\\src\\Knapsack.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" "src\\01Knapsack.o" 
+src\01Knapsack.o: In function `Z18Knapsack_RecursivePiS_ii':
+C:\Users\user\workspace\DynamicProgramming\Debug/../src/01Knapsack.cpp:10: multiple definition of `Knapsack_Recursive(int*, int*, int, int)'
+src\Knapsack.o:C:\Users\user\workspace\DynamicProgramming\Debug/../src/Knapsack.cpp:10: first defined here
+src\01Knapsack.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming\Debug/../src/01Knapsack.cpp:22: multiple definition of `main'
+src\Knapsack.o:C:\Users\user\workspace\DynamicProgramming\Debug/../src/Knapsack.cpp:22: first defined here
+collect2.exe: error: ld returned 1 exit status
+13:19:52 **** Clean-only build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+rm -rf src/CoinChange.d src/BinomialCoefficient.d src/BinomialCoefficient.o src/CoinChange.o src/MinCostPath.o src/LCS.o src/EditDistance.o src/MinCostPath.d DynamicProgramming.exe src/LIS.o src/LCS.d src/MatrixChainMultiplication.o src/Knapsack.d src/MatrixChainMultiplication.d src/LIS.d src/Knapsack.o src/EditDistance.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_51/bin/client;C:/Program Files/Java/jre1.8.0_51/bin;C:/Program Files/Java/jre1.8.0_51/lib/i386;C:\MinGW\bin;C:\MinGW\libexec\gcc\i686-pc-mingw32\4.7.3;C:\MinGW\libexec\gcc\i686-pc-mingw32\5.1.0;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Skype\Phone\;C:\Program Files\eclipse]
+
+13:19:52 **** Clean-only build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+13:19:56 **** Rebuild of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Knapsack.o" "..\\src\\Knapsack.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MinCostPath.o" "..\\src\\MinCostPath.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+Info: Nothing to build for DynamicProgramming
+13:50:20 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Knapsack.o" "..\\src\\Knapsack.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+13:50:44 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Knapsack.o" "..\\src\\Knapsack.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+13:51:46 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Knapsack.o" "..\\src\\Knapsack.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+13:57:50 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Knapsack.o" "..\\src\\Knapsack.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+15:00:45 **** Rebuild of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MinCostPath.o" "..\\src\\MinCostPath.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Knapsack.o" "..\\src\\Knapsack.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+15:08:43 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Knapsack.o" "..\\src\\Knapsack.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+..\src\EggDroppingPuzzle.cpp: In function 'int eggDropping(int, int)':
+..\src\EggDroppingPuzzle.cpp:21:59: error: 'min' cannot be used as a function
+15:09:31 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+..\src\EggDroppingPuzzle.cpp: In function 'int eggDropping(int, int)':
+..\src\EggDroppingPuzzle.cpp:22:59: error: 'min' cannot be used as a function
+15:09:43 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+..\src\EggDroppingPuzzle.cpp: In function 'int eggDropping(int, int)':
+..\src\EggDroppingPuzzle.cpp:22:59: error: 'min' cannot be used as a function
+15:10:26 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+..\src\EggDroppingPuzzle.cpp: In function 'int eggDropping(int, int)':
+..\src\EggDroppingPuzzle.cpp:22:59: error: 'min' cannot be used as a function
+15:10:46 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+..\src\EggDroppingPuzzle.cpp: In function 'int eggDropping(int, int)':
+..\src\EggDroppingPuzzle.cpp:22:59: error: 'min' cannot be used as a function
+15:10:53 **** Clean-only build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+rm -rf src/CoinChange.d src/BinomialCoefficient.d src/BinomialCoefficient.o src/CoinChange.o src/MinCostPath.o src/LCS.o src/EditDistance.o src/MinCostPath.d src/EggDroppingPuzzle.d DynamicProgramming.exe src/LIS.o src/LCS.d src/MatrixChainMultiplication.o src/Knapsack.d src/MatrixChainMultiplication.d src/EggDroppingPuzzle.o src/LIS.d src/Knapsack.o src/EditDistance.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_51/bin/client;C:/Program Files/Java/jre1.8.0_51/bin;C:/Program Files/Java/jre1.8.0_51/lib/i386;C:\MinGW\bin;C:\MinGW\libexec\gcc\i686-pc-mingw32\4.7.3;C:\MinGW\libexec\gcc\i686-pc-mingw32\5.1.0;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Skype\Phone\;C:\Program Files\eclipse]
+
+15:10:53 **** Clean-only build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+15:11:25 **** Rebuild of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MinCostPath.o" "..\\src\\MinCostPath.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Knapsack.o" "..\\src\\Knapsack.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+Info: Nothing to build for DynamicProgramming
+15:11:58 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+15:12:34 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+15:13:24 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+15:14:37 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+15:16:15 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+15:16:49 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+15:19:33 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+15:19:57 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+Info: Nothing to build for DynamicProgramming
+15:47:44 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+15:48:14 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/4.7.3/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file DynamicProgramming.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:48:52 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+15:49:53 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/4.7.3/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file DynamicProgramming.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:51:58 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+15:54:57 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+..\src\EggDroppingPuzzle.cpp: In function 'void eggDropping_DP(int, int)':
+..\src\EggDroppingPuzzle.cpp:62:12: warning: unused variable 'min' [-Wunused-variable]
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+15:56:12 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+..\src\EggDroppingPuzzle.cpp: In function 'void eggDropping_DP(int, int)':
+..\src\EggDroppingPuzzle.cpp:62:12: warning: unused variable 'min' [-Wunused-variable]
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+15:57:11 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+..\src\EggDroppingPuzzle.cpp: In function 'void eggDropping_DP(int, int)':
+..\src\EggDroppingPuzzle.cpp:62:12: warning: unused variable 'min' [-Wunused-variable]
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+16:07:13 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MaximumIncreasingSumSubseq.o" "..\\src\\MaximumIncreasingSumSubseq.cpp" 
+..\src\MaximumIncreasingSumSubseq.cpp: In function 'void maximumIncreasingSumSubsequence(int*, int)':
+..\src\MaximumIncreasingSumSubseq.cpp:16:26: warning: statement has no effect [-Wunused-value]
+..\src\MaximumIncreasingSumSubseq.cpp:28:2: error: 'cout' was not declared in this scope
+..\src\MaximumIncreasingSumSubseq.cpp:28:58: error: 'endl' was not declared in this scope
+16:07:36 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MaximumIncreasingSumSubseq.o" "..\\src\\MaximumIncreasingSumSubseq.cpp" 
+..\src\MaximumIncreasingSumSubseq.cpp: In function 'void maximumIncreasingSumSubsequence(int*, int)':
+..\src\MaximumIncreasingSumSubseq.cpp:18:26: warning: statement has no effect [-Wunused-value]
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MaximumIncreasingSumSubseq.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+src\EggDroppingPuzzle.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming\Debug/../src/EggDroppingPuzzle.cpp:78: multiple definition of `main'
+src\MaximumIncreasingSumSubseq.o:C:\Users\user\workspace\DynamicProgramming\Debug/../src/MaximumIncreasingSumSubseq.cpp:35: first defined here
+collect2.exe: error: ld returned 1 exit status
+16:07:57 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MaximumIncreasingSumSubseq.o" "..\\src\\MaximumIncreasingSumSubseq.cpp" 
+..\src\MaximumIncreasingSumSubseq.cpp: In function 'void maximumIncreasingSumSubsequence(int*, int)':
+..\src\MaximumIncreasingSumSubseq.cpp:18:26: warning: statement has no effect [-Wunused-value]
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MaximumIncreasingSumSubseq.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+src\EggDroppingPuzzle.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming\Debug/../src/EggDroppingPuzzle.cpp:78: multiple definition of `main'
+src\MaximumIncreasingSumSubseq.o:C:\Users\user\workspace\DynamicProgramming\Debug/../src/MaximumIncreasingSumSubseq.cpp:35: first defined here
+collect2.exe: error: ld returned 1 exit status
+16:08:04 **** Clean-only build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+rm -rf src/CoinChange.d src/BinomialCoefficient.d src/MaximumIncreasingSumSubseq.o src/MaximumIncreasingSumSubseq.d src/BinomialCoefficient.o src/CoinChange.o src/MinCostPath.o src/LCS.o src/EditDistance.o src/MinCostPath.d src/EggDroppingPuzzle.d DynamicProgramming.exe src/LIS.o src/LCS.d src/MatrixChainMultiplication.o src/Knapsack.d src/MatrixChainMultiplication.d src/EggDroppingPuzzle.o src/LIS.d src/Knapsack.o src/EditDistance.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_51/bin/client;C:/Program Files/Java/jre1.8.0_51/bin;C:/Program Files/Java/jre1.8.0_51/lib/i386;C:\MinGW\bin;C:\MinGW\libexec\gcc\i686-pc-mingw32\4.7.3;C:\MinGW\libexec\gcc\i686-pc-mingw32\5.1.0;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Skype\Phone\;C:\Program Files\eclipse]
+
+16:08:04 **** Clean-only build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+16:08:42 **** Rebuild of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CoinChange.o" "..\\src\\CoinChange.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MinCostPath.o" "..\\src\\MinCostPath.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinomialCoefficient.o" "..\\src\\BinomialCoefficient.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MaximumIncreasingSumSubseq.o" "..\\src\\MaximumIncreasingSumSubseq.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MatrixChainMultiplication.o" "..\\src\\MatrixChainMultiplication.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Knapsack.o" "..\\src\\Knapsack.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+..\src\EggDroppingPuzzle.cpp: In function 'void eggDropping_DP(int, int)':
+..\src\EggDroppingPuzzle.cpp:62:12: warning: unused variable 'min' [-Wunused-variable]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EditDistance.o" "..\\src\\EditDistance.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MaximumIncreasingSumSubseq.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+src\EggDroppingPuzzle.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming\Debug/../src/EggDroppingPuzzle.cpp:78: multiple definition of `main'
+src\MaximumIncreasingSumSubseq.o:C:\Users\user\workspace\DynamicProgramming\Debug/../src/MaximumIncreasingSumSubseq.cpp:35: first defined here
+collect2.exe: error: ld returned 1 exit status
+16:09:34 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MaximumIncreasingSumSubseq.o" "..\\src\\MaximumIncreasingSumSubseq.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MaximumIncreasingSumSubseq.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+src\EggDroppingPuzzle.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming\Debug/../src/EggDroppingPuzzle.cpp:78: multiple definition of `main'
+src\MaximumIncreasingSumSubseq.o:C:\Users\user\workspace\DynamicProgramming\Debug/../src/MaximumIncreasingSumSubseq.cpp:36: first defined here
+collect2.exe: error: ld returned 1 exit status
+16:10:14 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EggDroppingPuzzle.o" "..\\src\\EggDroppingPuzzle.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MaximumIncreasingSumSubseq.o" "src\\MatrixChainMultiplication.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+16:25:38 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LongestBitonicSubsequence.o" "..\\src\\LongestBitonicSubsequence.cpp" 
+..\src\LongestBitonicSubsequence.cpp: In function 'void longestBitonicSubsequence(int*, int)':
+..\src\LongestBitonicSubsequence.cpp:40:2: error: 'cout' was not declared in this scope
+..\src\LongestBitonicSubsequence.cpp:40:48: error: 'endl' was not declared in this scope
+16:26:42 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LongestBitonicSubsequence.o" "..\\src\\LongestBitonicSubsequence.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MaximumIncreasingSumSubseq.o" "src\\MatrixChainMultiplication.o" "src\\LongestBitonicSubsequence.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/4.7.3/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file DynamicProgramming.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:26:48 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MaximumIncreasingSumSubseq.o" "src\\MatrixChainMultiplication.o" "src\\LongestBitonicSubsequence.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/4.7.3/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file DynamicProgramming.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:28:09 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MaximumIncreasingSumSubseq.o" "..\\src\\MaximumIncreasingSumSubseq.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MaximumIncreasingSumSubseq.o" "src\\MatrixChainMultiplication.o" "src\\LongestBitonicSubsequence.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+16:35:22 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FLoyddWarshall.o" "..\\src\\FLoyddWarshall.cpp" 
+..\src\FLoyddWarshall.cpp:11:31: error: 'V' was not declared in this scope
+..\src\FLoyddWarshall.cpp:11:34: error: 'V' was not declared in this scope
+..\src\FLoyddWarshall.cpp: In function 'void floyddWarshall(...)':
+..\src\FLoyddWarshall.cpp:12:15: error: 'V' was not declared in this scope
+..\src\FLoyddWarshall.cpp:15:14: error: invalid types '<unresolved overloaded function type>[int]' for array subscript
+..\src\FLoyddWarshall.cpp:15:19: error: 'graph' was not declared in this scope
+..\src\FLoyddWarshall.cpp:23:19: error: invalid types '<unresolved overloaded function type>[int]' for array subscript
+..\src\FLoyddWarshall.cpp:23:34: error: invalid types '<unresolved overloaded function type>[int]' for array subscript
+..\src\FLoyddWarshall.cpp:23:49: error: invalid types '<unresolved overloaded function type>[int]' for array subscript
+..\src\FLoyddWarshall.cpp:24:17: error: invalid types '<unresolved overloaded function type>[int]' for array subscript
+..\src\FLoyddWarshall.cpp:24:32: error: invalid types '<unresolved overloaded function type>[int]' for array subscript
+..\src\FLoyddWarshall.cpp:24:47: error: invalid types '<unresolved overloaded function type>[int]' for array subscript
+..\src\FLoyddWarshall.cpp:32:21: error: invalid types '<unresolved overloaded function type>[int]' for array subscript
+..\src\FLoyddWarshall.cpp: In function 'int main()':
+..\src\FLoyddWarshall.cpp:39:12: error: 'V' was not declared in this scope
+..\src\FLoyddWarshall.cpp:44:17: error: 'graph' was not declared in this scope
+16:35:35 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FLoyddWarshall.o" "..\\src\\FLoyddWarshall.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MaximumIncreasingSumSubseq.o" "src\\MatrixChainMultiplication.o" "src\\LongestBitonicSubsequence.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\FLoyddWarshall.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+src\FLoyddWarshall.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming\Debug/../src/FLoyddWarshall.cpp:39: multiple definition of `main'
+src\LongestBitonicSubsequence.o:C:\Users\user\workspace\DynamicProgramming\Debug/../src/LongestBitonicSubsequence.cpp:44: first defined here
+collect2.exe: error: ld returned 1 exit status
+16:35:57 **** Incremental Build of configuration Debug for project DynamicProgramming ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LongestBitonicSubsequence.o" "..\\src\\LongestBitonicSubsequence.cpp" 
+g++ -o DynamicProgramming.exe "src\\MinCostPath.o" "src\\MaximumIncreasingSumSubseq.o" "src\\MatrixChainMultiplication.o" "src\\LongestBitonicSubsequence.o" "src\\LIS.o" "src\\LCS.o" "src\\Knapsack.o" "src\\FLoyddWarshall.o" "src\\EggDroppingPuzzle.o" "src\\EditDistance.o" "src\\CoinChange.o" "src\\BinomialCoefficient.o" 
+Info: Nothing to build for DynamicProgramming
+21:52:43 **** Rebuild of configuration Debug for project HackerRank ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SherlockDivisors.o" "..\\src\\SherlockDivisors.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DiagonalSum.o" "..\\src\\DiagonalSum.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HackerRank.o" "..\\src\\HackerRank.cpp" 
+g++ -o HackerRank.exe "src\\SherlockDivisors.o" "src\\HackerRank.o" "src\\DiagonalSum.o" 
+21:55:09 **** Incremental Build of configuration Debug for project HackerRank ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DiagonalSum.o" "..\\src\\DiagonalSum.cpp" 
+g++ -o HackerRank.exe "src\\SherlockDivisors.o" "src\\HackerRank.o" "src\\DiagonalSum.o" 
+21:56:57 **** Incremental Build of configuration Debug for project HackerRank ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DiagonalSum.o" "..\\src\\DiagonalSum.cpp" 
+g++ -o HackerRank.exe "src\\SherlockDivisors.o" "src\\HackerRank.o" "src\\DiagonalSum.o" 
+21:58:00 **** Incremental Build of configuration Debug for project HackerRank ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DiagonalSum.o" "..\\src\\DiagonalSum.cpp" 
+g++ -o HackerRank.exe "src\\SherlockDivisors.o" "src\\HackerRank.o" "src\\DiagonalSum.o" 
+21:58:33 **** Incremental Build of configuration Debug for project HackerRank ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DiagonalSum.o" "..\\src\\DiagonalSum.cpp" 
+g++ -o HackerRank.exe "src\\SherlockDivisors.o" "src\\HackerRank.o" "src\\DiagonalSum.o" 
+21:59:40 **** Incremental Build of configuration Debug for project HackerRank ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DiagonalSum.o" "..\\src\\DiagonalSum.cpp" 
+g++ -o HackerRank.exe "src\\SherlockDivisors.o" "src\\HackerRank.o" "src\\DiagonalSum.o" 
+22:47:25 **** Incremental Build of configuration Debug for project HackerRank ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Fine.o" "..\\src\\Fine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DiagonalSum.o" "..\\src\\DiagonalSum.cpp" 
+g++ -o HackerRank.exe "src\\SherlockDivisors.o" "src\\HackerRank.o" "src\\Fine.o" "src\\DiagonalSum.o" 
+22:52:01 **** Incremental Build of configuration Debug for project HackerRank ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Fine.o" "..\\src\\Fine.cpp" 
+g++ -o HackerRank.exe "src\\SherlockDivisors.o" "src\\HackerRank.o" "src\\Fine.o" "src\\DiagonalSum.o" 
+23:03:13 **** Incremental Build of configuration Debug for project HackerRank ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Caesar.o" "..\\src\\Caesar.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Fine.o" "..\\src\\Fine.cpp" 
+g++ -o HackerRank.exe "src\\SherlockDivisors.o" "src\\HackerRank.o" "src\\Fine.o" "src\\DiagonalSum.o" "src\\Caesar.o" 
+23:04:21 **** Incremental Build of configuration Debug for project HackerRank ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Caesar.o" "..\\src\\Caesar.cpp" 
+g++ -o HackerRank.exe "src\\SherlockDivisors.o" "src\\HackerRank.o" "src\\Fine.o" "src\\DiagonalSum.o" "src\\Caesar.o" 
+23:06:21 **** Incremental Build of configuration Debug for project HackerRank ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Caesar.o" "..\\src\\Caesar.cpp" 
+g++ -o HackerRank.exe "src\\SherlockDivisors.o" "src\\HackerRank.o" "src\\Fine.o" "src\\DiagonalSum.o" "src\\Caesar.o" 
+07:47:08 **** Rebuild of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+..\src\LIS.cpp: In function 'void lis(int*, int)':
+..\src\LIS.cpp:15:8: warning: pointer to a function used in arithmetic [-Wpointer-arith]
+..\src\LIS.cpp:15:10: error: assignment of read-only location '*(lis + ((sizetype)i))'
+..\src\LIS.cpp:15:10: error: cannot convert 'int' to 'void(int*, int)' in assignment
+..\src\LIS.cpp:20:28: warning: pointer to a function used in arithmetic [-Wpointer-arith]
+..\src\LIS.cpp:20:30: warning: pointer to a function used in arithmetic [-Wpointer-arith]
+..\src\LIS.cpp:20:37: warning: pointer to a function used in arithmetic [-Wpointer-arith]
+..\src\LIS.cpp:21:10: warning: pointer to a function used in arithmetic [-Wpointer-arith]
+..\src\LIS.cpp:21:17: warning: pointer to a function used in arithmetic [-Wpointer-arith]
+..\src\LIS.cpp:21:19: warning: pointer to a function used in arithmetic [-Wpointer-arith]
+..\src\LIS.cpp:21:19: error: assignment of read-only location '*(lis + ((sizetype)i))'
+..\src\LIS.cpp:21:19: error: cannot convert 'void (*)(int*, int)' to 'void(int*, int)' in assignment
+..\src\LIS.cpp:28:11: warning: pointer to a function used in arithmetic [-Wpointer-arith]
+..\src\LIS.cpp:28:13: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+..\src\LIS.cpp:29:17: warning: pointer to a function used in arithmetic [-Wpointer-arith]
+..\src\LIS.cpp:29:17: error: invalid conversion from 'void (*)(int*, int)' to 'int' [-fpermissive]
+07:47:43 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" 
+Info: Nothing to build for DynamicProgramming2
+07:52:23 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" 
+07:52:50 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" 
+07:55:02 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" 
+07:55:53 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+..\src\LIS.cpp: In function 'void lis(int*, int)':
+..\src\LIS.cpp:16:6: warning: variable 'index_lis' set but not used [-Wunused-but-set-variable]
+g++ -o DynamicProgramming2.exe "src\\LIS.o" 
+07:57:26 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" 
+07:58:13 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" 
+07:58:31 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" 
+07:59:15 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" 
+07:59:54 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" 
+08:02:01 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" 
+09:37:46 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LIS.o" "..\\src\\LIS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" "src\\LCS.o" 
+09:38:31 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" "src\\LCS.o" 
+09:45:55 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" "src\\LCS.o" 
+09:52:17 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" "src\\LCS.o" 
+09:55:25 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" "src\\LCS.o" 
+09:58:39 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\LIS.o" "src\\LCS.o" 
+10:09:13 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MaxSumIncrSubseq.o" "..\\src\\MaxSumIncrSubseq.cpp" 
+..\src\MaxSumIncrSubseq.cpp: In function 'void maximumSumIncreasingSubseq(int*, int)':
+..\src\MaxSumIncrSubseq.cpp:22:14: error: 'INT_MIN' was not declared in this scope
+..\src\MaxSumIncrSubseq.cpp:28:2: error: 'cout' was not declared in this scope
+..\src\MaxSumIncrSubseq.cpp:28:28: error: 'endl' was not declared in this scope
+10:09:31 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MaxSumIncrSubseq.o" "..\\src\\MaxSumIncrSubseq.cpp" 
+..\src\MaxSumIncrSubseq.cpp: In function 'void maximumSumIncreasingSubseq(int*, int)':
+..\src\MaxSumIncrSubseq.cpp:30:2: error: 'cout' was not declared in this scope
+..\src\MaxSumIncrSubseq.cpp:30:28: error: 'endl' was not declared in this scope
+10:09:53 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MaxSumIncrSubseq.o" "..\\src\\MaxSumIncrSubseq.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LIS.o" "src\\LCS.o" 
+src\LCS.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming2\Debug/../src/LCS.cpp:70: multiple definition of `main'
+src\MaxSumIncrSubseq.o:C:\Users\user\workspace\DynamicProgramming2\Debug/../src/MaxSumIncrSubseq.cpp:35: first defined here
+collect2.exe: error: ld returned 1 exit status
+10:10:04 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MaxSumIncrSubseq.o" "..\\src\\MaxSumIncrSubseq.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LIS.o" "src\\LCS.o" 
+src\LCS.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming2\Debug/../src/LCS.cpp:70: multiple definition of `main'
+src\MaxSumIncrSubseq.o:C:\Users\user\workspace\DynamicProgramming2\Debug/../src/MaxSumIncrSubseq.cpp:35: first defined here
+collect2.exe: error: ld returned 1 exit status
+10:10:25 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LIS.o" "src\\LCS.o" 
+10:27:36 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CutRod.o" "..\\src\\CutRod.cpp" 
+..\src\CutRod.cpp: In function 'int main()':
+..\src\CutRod.cpp:23:40: error: 'n' was not declared in this scope
+..\src\CutRod.cpp:22:6: warning: unused variable 'size' [-Wunused-variable]
+..\src\CutRod.cpp: In function 'int cutRod(int*, int)':
+..\src\CutRod.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+10:27:54 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CutRod.o" "..\\src\\CutRod.cpp" 
+..\src\CutRod.cpp: In function 'int cutRod(int*, int)':
+..\src\CutRod.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+src\CutRod.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming2\Debug/../src/CutRod.cpp:20: multiple definition of `main'
+src\MaxSumIncrSubseq.o:C:\Users\user\workspace\DynamicProgramming2\Debug/../src/MaxSumIncrSubseq.cpp:35: first defined here
+collect2.exe: error: ld returned 1 exit status
+10:28:09 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MaxSumIncrSubseq.o" "..\\src\\MaxSumIncrSubseq.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+10:30:09 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CutRod.o" "..\\src\\CutRod.cpp" 
+..\src\CutRod.cpp: In function 'int cutRod(int*, int)':
+..\src\CutRod.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+Info: Nothing to build for DynamicProgramming2
+10:30:56 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CutRod.o" "..\\src\\CutRod.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+10:33:07 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CutRod.o" "..\\src\\CutRod.cpp" 
+..\src\CutRod.cpp: In function 'int cutRod(int*, int)':
+..\src\CutRod.cpp:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+10:37:19 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CutRod.o" "..\\src\\CutRod.cpp" 
+..\src\CutRod.cpp: In function 'int cutRod(int*, int)':
+..\src\CutRod.cpp:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+10:43:03 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CutRod.o" "..\\src\\CutRod.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+10:50:42 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CutRod.o" "..\\src\\CutRod.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+10:51:13 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CutRod.o" "..\\src\\CutRod.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+11:22:52 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LongestPalindromicSubseq.o" "..\\src\\LongestPalindromicSubseq.cpp" 
+..\src\LongestPalindromicSubseq.cpp: In function 'int main()':
+..\src\LongestPalindromicSubseq.cpp:24:21: error: 'strlen' was not declared in this scope
+11:23:20 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LongestPalindromicSubseq.o" "..\\src\\LongestPalindromicSubseq.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+src\CutRod.o: In function `main':
+C:\Users\user\workspace\DynamicProgramming2\Debug/../src/CutRod.cpp:39: multiple definition of `main'
+src\LongestPalindromicSubseq.o:C:\Users\user\workspace\DynamicProgramming2\Debug/../src/LongestPalindromicSubseq.cpp:23: first defined here
+collect2.exe: error: ld returned 1 exit status
+11:23:35 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CutRod.o" "..\\src\\CutRod.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+11:27:45 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LongestPalindromicSubseq.o" "..\\src\\LongestPalindromicSubseq.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+14:10:17 **** Rebuild of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LongestPalindromicSubseq.o" "..\\src\\LongestPalindromicSubseq.cpp" 
+..\src\LongestPalindromicSubseq.cpp: In function 'void longestPalindromicSubseq_DP(char*, int)':
+..\src\LongestPalindromicSubseq.cpp:57:26: error: 'n' was not declared in this scope
+14:10:32 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LongestPalindromicSubseq.o" "..\\src\\LongestPalindromicSubseq.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+14:11:06 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LongestPalindromicSubseq.o" "..\\src\\LongestPalindromicSubseq.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+14:12:36 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LongestPalindromicSubseq.o" "..\\src\\LongestPalindromicSubseq.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+14:13:04 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LongestPalindromicSubseq.o" "..\\src\\LongestPalindromicSubseq.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+15:12:44 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'char* reverse(char*, int)':
+..\src\LCS.cpp:72:7: warning: address of local variable 'Y' returned [enabled by default]
+..\src\LCS.cpp: In function 'int main()':
+..\src\LCS.cpp:93:9: error: redeclaration of 'char X []'
+..\src\LCS.cpp:85:7: error: 'char X [6]' previously declared here
+..\src\LCS.cpp:95:8: error: conflicting declaration 'char* Y'
+..\src\LCS.cpp:86:7: error: 'Y' has a previous declaration as 'char Y [7]'
+15:13:04 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'char* reverse(char*, int)':
+..\src\LCS.cpp:72:7: warning: address of local variable 'Y' returned [enabled by default]
+..\src\LCS.cpp: In function 'int main()':
+..\src\LCS.cpp:93:4: error: expected primary-expression before ']' token
+..\src\LCS.cpp:95:8: error: conflicting declaration 'char* Y'
+..\src\LCS.cpp:86:7: error: 'Y' has a previous declaration as 'char Y [7]'
+15:13:12 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'char* reverse(char*, int)':
+..\src\LCS.cpp:72:7: warning: address of local variable 'Y' returned [enabled by default]
+..\src\LCS.cpp: In function 'int main()':
+..\src\LCS.cpp:93:4: error: invalid array assignment
+..\src\LCS.cpp:95:8: error: conflicting declaration 'char* Y'
+..\src\LCS.cpp:86:7: error: 'Y' has a previous declaration as 'char Y [7]'
+15:13:55 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LongestPalindromicSubseq.o" "..\\src\\LongestPalindromicSubseq.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'char* reverse(char*, int)':
+..\src\LCS.cpp:72:7: warning: address of local variable 'Y' returned [enabled by default]
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+Info: Nothing to build for DynamicProgramming2
+15:15:26 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'char* reverse(char*, int)':
+..\src\LCS.cpp:72:7: warning: address of local variable 'Y' returned [enabled by default]
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+15:16:30 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'char* reverse(char*, int)':
+..\src\LCS.cpp:72:7: warning: address of local variable 'Y' returned [enabled by default]
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+15:17:52 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'char* reverse(char*, int)':
+..\src\LCS.cpp:72:7: warning: address of local variable 'Y' returned [enabled by default]
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+Info: Nothing to build for DynamicProgramming2
+15:21:31 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'char* reverse(char*, int)':
+..\src\LCS.cpp:79:7: warning: address of local variable 'Y' returned [enabled by default]
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+15:24:14 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'char* reverse(char*, int)':
+..\src\LCS.cpp:79:7: warning: address of local variable 'Y' returned [enabled by default]
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+15:24:48 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+..\src\LCS.cpp: In function 'char* reverse(char*, int)':
+..\src\LCS.cpp:79:7: warning: address of local variable 'Y' returned [enabled by default]
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+15:25:32 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+Info: Nothing to build for DynamicProgramming2
+15:26:28 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+15:26:47 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 
+15:29:40 **** Incremental Build of configuration Debug for project DynamicProgramming2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LCS.o" "..\\src\\LCS.cpp" 
+g++ -o DynamicProgramming2.exe "src\\MaxSumIncrSubseq.o" "src\\LongestPalindromicSubseq.o" "src\\LIS.o" "src\\LCS.o" "src\\CutRod.o" 

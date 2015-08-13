@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MathematicalAlgorithms/src/AverageOfStreamOfNumbers&apos; to &apos;AverageOfStreamOfNumbers.cpp&apos;" description="Rename resource &apos;AverageOfStreamOfNumbers&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/AverageOfStreamOfNumbers" name="AverageOfStreamOfNumbers.cpp" stamp="1438281709758" updateReferences="true"/>
+</session>

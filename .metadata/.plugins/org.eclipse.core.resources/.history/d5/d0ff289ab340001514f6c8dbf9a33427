@@ -1,0 +1,62 @@
+/*
+ * MatrixChainMultiplication.cpp
+ *
+ *  Created on: Aug 12, 2015
+ *      Author: user
+ */
+#include<limits.h>
+#include<iostream>
+using namespace std;
+int matrixChainMultiply_Recursion(int p[],int i,int j){
+	if(i==j){
+		return 0;
+	}
+	int min=INT_MAX,count;
+	for(int k=i;k<j;k++){
+		count=matrixChainMultiply_Recursion(p,i,k)+
+				matrixChainMultiply_Recursion(p,k+1,j)+
+				p[i-1]*p[j]*p[k];
+		if(count<min){
+			min=count;
+		}
+	}
+	return min;
+}
+void matrixChainMultiply(int p[],int n){
+	int m[n][n],cost;
+	for(int i=1;i<n;i++){
+		for(int j=1;j<n;j++){
+			if(i==j || i>j){
+				m[i][j]=0;
+			}
+			else{
+				if(j>i){
+				m[i][j]=INT_MAX;
+				for(int k=i;k<=j-1;k++){
+					cost=m[i][k]+m[k+1][j]+p[i-1]*p[k]*p[j];
+					cout<<"Calculating cost for i"<<i<<" j "<<j<<" k "<<k<<endl;
+					if(cost<m[i][j]){
+						m[i][j]=cost;
+					}
+				}
+				}
+			}
+		}
+	}
+//Printing Matrix...
+for(int i=0;i<n;i++){
+		for(int j=0;j<n;j++){
+			cout<<m[i][j]<<" ";
+		}
+		cout<<endl;
+}
+	cout<<"Minimum cost is "<<m[0][n-1]<<endl;
+}
+
+int main(){
+	int p[]={1, 2, 3, 4};
+	int n=sizeof(p)/sizeof(int);
+	matrixChainMultiply(p,n);
+	//cout<<matrixChainMultiply_Recursion(p,1,4);
+}
+

@@ -1,0 +1,5 @@
+09:45:44 **** Clean-only build of configuration Debug for project BinaryTree ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+
+09:45:44 Build Finished (took 264ms)
+

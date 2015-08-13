@@ -1,0 +1,32 @@
+/*
+ * CoinChange.cpp
+ *
+ *  Created on: Aug 12, 2015
+ *      Author: user
+ *      Description:Minimum no. of coins to make change
+ *      C(P)=1+min(C(p-vi))for all i
+ */
+#include<limits.h>
+void coinChange(int coins[],int noOfCoins,int sum){
+	int table[sum+1];
+	table[0]=0;
+	int c;
+	for(int i=1;i<=sum;i++){
+		c=INT_MAX;
+		for(int j=0;j<noOfCoins;j++){
+			if(i>=coins[j]){
+				c=min(c,table[i-coins[j]]);
+			}
+		}
+		if(coins<INT_MAX){
+			table[i]=c+1;
+		}
+		else{
+			table[i]=INT_MAX;
+		}
+	}
+	cout<<"Minimum no. of coins are "<<table[sum]<<endl;
+}
+
+
+
