@@ -1,3 +1,4 @@
+/*
 //============================================================================
 // Name        : BinarySearchTree.cpp
 // Author      : alkayadav
@@ -83,3 +84,4 @@ int main() {
 	cout<<"LCA is "<<l->data;
 	return 0;
 }
+*/
