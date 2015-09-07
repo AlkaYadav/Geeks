@@ -1,3 +1,4 @@
+/*
 //============================================================================
 // Name        : Miscellaneous.cpp
 // Author      : alkayadav
@@ -88,3 +89,4 @@ int main() {
 	//cout<<"Minimum no. of coins "<<countMinimumNoOfCoins(coins,value,index,noOfCoins,minimum)<<endl;
 	return 0;
 }
+*/
