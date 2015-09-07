@@ -1,9 +1,10 @@
 /*
+
  * CountFrequency.cpp
  *
  *  Created on: Aug 19, 2015
  *      Author: user
- */
+
 
 #include<iostream>
 using namespace std;
@@ -53,3 +54,4 @@ int main(){
 	printArray(arr,n);
 	countFrequencyO1Time(arr,n);
 }
+*/
