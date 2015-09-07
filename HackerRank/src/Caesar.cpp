@@ -1,9 +1,10 @@
 /*
+
  * Caesar.cpp
  *
  *  Created on: Aug 12, 2015
  *      Author: user
- */
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -13,7 +14,7 @@ using namespace std;
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+     Enter your code here. Read input from STDIN. Print output to STDOUT
     int N,K;
     cin>>N;
     char S[N];
@@ -32,3 +33,4 @@ int main() {
 
 
 
+*/
