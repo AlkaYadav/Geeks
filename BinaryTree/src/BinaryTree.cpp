@@ -8,6 +8,7 @@
 
 #include "BinaryTree.h"
 #define SIZE 20
+
 BinaryTree::BinaryTree(){
 	root=NULL;
 	root2=NULL;
@@ -35,6 +36,30 @@ BinaryTreeNode * BinaryTree::insert(int newdata){
 	return newnode;
 }
 
+//Print Binary tree in vertical order using hash map
+void BinaryTree::printVerticalOrderUSingHashMap(){
+	if(root){
+		int HD=0;
+		map<int, vector<int> >  mapHash;
+		printVerticalOrderUsingHashMapHelper(root,mapHash,HD);
+		map<int,vector<int> >::iterator it;
+		for(it=mapHash.begin();it!=mapHash.end();it++){
+			for(int j=0;j<it->second.size();j++){
+				cout<<it->first<<" Value:"<<it->second[j]<<endl;
+			}
+		}
+	}
+}
+
+void BinaryTree::printVerticalOrderUsingHashMapHelper(BinaryTreeNode* root,map<int,vector<int> >& mapHash,int HD){
+	if(root==NULL){
+		return;
+	}
+	mapHash[HD].push_back(root->data);
+	printVerticalOrderUsingHashMapHelper(root->left,mapHash,HD-1);
+	printVerticalOrderUsingHashMapHelper(root->right,mapHash,HD+1);
+
+}
 void BinaryTree::inorder(){
 	if(root){
 		inorderHelper(root);

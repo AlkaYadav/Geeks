@@ -10,6 +10,8 @@
 
 #include<iostream>
 #include<stdlib.h>
+#include<map>
+#include<vector>
 using namespace std;
 
 class BinaryTreeNode{
@@ -32,6 +34,8 @@ class BinaryTree{
 	void printPathsRootToLeafOnePerLineHelper(BinaryTreeNode *root,int *a,int);
 	void printArray(int *a,int len);
 	int countLeafNodesHelper(BinaryTreeNode *);
+	void printVerticalOrderUsingHashMapHelper(BinaryTreeNode* root,map<int,vector<int> >& mapHash,int HD);
+
 	public:
 		BinaryTree();
 		BinaryTreeNode * insert(int data);
@@ -44,6 +48,7 @@ class BinaryTree{
 		void mirrorBinaryTree();
 		void printPathsRootToLeafOnePerLine();
 		int countLeafNodes();
+		void printVerticalOrderUSingHashMap();
 };
 
 

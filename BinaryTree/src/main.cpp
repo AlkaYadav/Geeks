@@ -27,6 +27,8 @@ int main(int argc, char** argv) {
 		switch(option){
 			case 1:
 			  bt.insertRandom();
+			  cout<<"Print in vertical order "<<endl;
+			  bt.printVerticalOrderUSingHashMap();
 			  bt.inorder();
 			  cout<<"size is"<<bt.size()<<endl;
 			  break;
