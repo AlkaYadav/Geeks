@@ -1,12 +1,11 @@
 /*
-
  * CoinChange.cpp
  *
  *  Created on: Aug 12, 2015
  *      Author: user
  *      Description:Minimum no. of coins to make change
  *      C(P)=1+min(C(p-vi))for all i
-
+*/
 #include<limits.h>
 #include<iostream>
 using namespace std;
@@ -54,4 +53,3 @@ int main(){
 }
 
 
-*/

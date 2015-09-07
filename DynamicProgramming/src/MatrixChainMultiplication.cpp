@@ -63,7 +63,7 @@ for(int i=0;i<n;i++){
 }
 
 int main(){
-	int p[]={1, 2, 3, 4};
+	int p[]={40, 20, 30, 10, 30};
 	int n=sizeof(p)/sizeof(int);
 	matrixChainMultiply(p,n);
 	cout<<matrixChainMultiply_Recursion(p,1,n-1);
