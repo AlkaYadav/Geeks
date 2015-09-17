@@ -1,0 +1,24 @@
+/*
+ * CustomizedGraph.cpp
+ *
+ *  Created on: Sep 17, 2015
+ *      Author: user
+ */
+#include<queue>
+#include <iostream>
+#include<vector>
+using namespace std;
+struct Edge{
+	int dest;
+	int cost;
+	int dist;
+};
+
+
+int main(){
+
+		int N,M,src,dest,wt;
+		int sum=0;
+		cin>>N>>M;
+		vector<struct Edge>[N];
+}

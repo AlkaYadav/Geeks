@@ -1,8 +1,0 @@
-23:41:54 **** Incremental Build of configuration Debug for project HackerRank ****
-Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\largestSumContiguous.o" "..\\src\\largestSumContiguous.cpp" 
-g++ -o HackerRank.exe "src\\xor.o" "src\\output.o" "src\\lis.o" "src\\largestSumContiguous.o" "src\\array.o" "src\\SortedDoubly.o" "src\\SherlockDivisors.o" "src\\Monk.o" "src\\Knapsack.o" "src\\JourneyToMoon.o" "src\\HackerRank.o" "src\\Fine.o" "src\\DiagonalSum.o" "src\\Caesar.o" "src\\BitDiffer.o" "src\\BFSVector.o" "src\\BFS.o" 
-
-23:41:56 Build Finished (took 1s.913ms)
-

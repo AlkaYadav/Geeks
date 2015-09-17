@@ -1,0 +1,31 @@
+//Find the minimum distance between two numbers
+#include<iostream>
+#include<limits.h>
+#include<algorithm>
+#include<vector>
+#include<stack>
+#include<map>
+#include<functional>
+using namespace std;
+void minDist(int a[],int n,int x,int y){
+	int prev=-1,mindist=-1;
+	for(int i=0;i<n;i++){
+		if(a[i]==x|| a[i]==y){
+			prev=i;
+			break;
+		}
+	}
+	if(prev==-1){
+		return ;
+	}
+	for(int i=prev;i<n;i++){
+		if(a[i]==x|| a[i]==y){
+			if(a[i]!=a[prev] && mindist>i-prev){
+				mindist=i-prev;
+			}
+			prev=i;
+		}
+	}
+
+	cout<<"Minimum dist is "<<mindist<<endl;
+}

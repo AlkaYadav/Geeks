@@ -1,0 +1,23 @@
+/*
+ * floorCeil.cpp
+ *
+ *  Created on: Aug 18, 2015
+ *      Author: user
+ */
+
+struct node* ceil(struct node* root,int data){
+	if(root==NULL){
+		return -1;
+	}
+	if(data==root->data){
+		return root;
+	}
+	if(data<root->data){
+		return ceil(root->left,data);
+	}
+	els if(data>root->data){
+		return ceil(root->right,data);
+	}
+}
+
+

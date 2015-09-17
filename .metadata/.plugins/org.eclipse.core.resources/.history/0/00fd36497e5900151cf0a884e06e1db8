@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : ArrayProject.cpp
+// Author      : alkayadav
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Find the closest pair from two sorted arrays
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

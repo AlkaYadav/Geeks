@@ -1,0 +1,33 @@
+/*
+ * smallestSubarrayWithGreaterSum.cpp
+ *
+ *  Created on: Sep 13, 2015
+ *      Author: user
+ */
+//Smallest subarray with sum greater than a given value
+#include<iostream>
+#include<limits.h>
+#include<map>
+#include<algorithm>
+using namespace std;
+
+void smallestSubarrayWithGreaterSum(int a[],int n,int sum){
+	int start=0;
+	int end=0;
+	int s=0;
+	int len=INT_MAX;
+	while(end<n){
+		while(s<=sum && start<n){
+			s+=a[start++];
+		}
+		if(s>sum){
+			while(s>sum && end<n){
+				len=min(len,end-start);
+				s-=a[end++];
+			}
+		}
+	}
+}
+
+
+

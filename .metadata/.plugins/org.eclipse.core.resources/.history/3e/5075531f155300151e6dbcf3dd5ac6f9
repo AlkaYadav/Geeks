@@ -1,0 +1,19 @@
+/*
+ * Itinary.cpp
+ *
+ *  Created on: Sep 4, 2015
+ *      Author: user
+ */
+#include<string>
+#include<map>
+using namespace std;
+
+void findItinary(char **str1,char** str2,int len){
+	//Create map of two strings
+	map<string,string> mapHash;
+	for(int i=0;i<len;i++){
+		mapHash[str1[i]]=str2[i];
+	}
+}
+
+

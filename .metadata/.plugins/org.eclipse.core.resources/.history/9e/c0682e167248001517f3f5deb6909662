@@ -1,0 +1,80 @@
+//============================================================================
+// Name        : Practice.cpp
+// Author      : alkayadav
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include<cstring>
+#include<stack>
+using namespace std;
+//Convert infix to postfix
+
+bool isOperand(char a){
+	if((a>='a' && a<='z') || (a>='A' && a<='Z')){
+		return true;
+	}
+	return false;
+}
+
+bool isOperator(char a){
+	if(a=='+'|| a=='-' || a=='*' ||a=='/' || a=='^'){
+		return true;
+	}
+	return false;
+}
+
+int prec(char a){
+	switch(a){
+	case '+':
+	case '-':
+		     return 1;
+	case '*':
+	case '/':
+		     return 2;
+	case '^':
+		     return 3;
+	default:
+		    return 0;
+	}
+}
+void convertInfixToPostfix(char expr[]){
+	int n=strlen(expr);
+	int k=-1;
+	stack<char> s;
+	for(int i=0;i<n;i++){
+		if(isOperand(expr[i])){
+			expr[++k]=expr[i];
+		}
+		else if(expr[i]=='('){
+			expr[++k]=expr[i];
+		}
+		else if(expr[i]==')'){
+			while(!s.empty() && s.top()!='('){
+				expr[++k]=s.top();
+				s.pop();
+			}
+			if(s.empty()&& s.top()!='('){
+				return;
+			}
+			s.pop();
+		}
+		else if(isOperator(expr[i])){
+			while(!s.empty() && prec(s.top())>=prec(expr[i])){
+				expr[++k]=s.top();
+				s.pop();
+			}
+			s.push(expr[i]);
+		}
+	}
+
+	expr[k]='\0';
+}
+
+int main(){
+	char expr[]="a+b*c/e";
+	convertInfixToPostfix(expr);
+	cout<<"Postfix is "<<expr<<endl;
+}

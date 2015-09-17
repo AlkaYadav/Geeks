@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Traversal/src/MorrisInorder.cpp&apos; to &apos;MorrisTraversal.cpp&apos;" description="Rename resource &apos;MorrisInorder.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/MorrisInorder.cpp" name="MorrisTraversal.cpp" stamp="1438583202318" updateReferences="true"/>
-</session>

@@ -1,0 +1,51 @@
+/*
+ * Kruskal.cpp
+ *
+ *  Created on: Sep 17, 2015
+ *      Author: user
+ */
+//Kruskal’s Minimum Spanning Tree Algorithm
+
+#include <iostream>
+#include<stack>
+#include<vector>
+#include<stdlib.h>
+#include<limits.h>
+#include<algorithm>
+using namespace std;
+
+struct Edge{
+	int src;
+	int dest;
+	int wt;
+};
+
+int compare(struct Edge* e1,struct Edge* e2){
+	return e1->wt>e2->wt;
+}
+int main(){
+	vector<struct Edge*> v;
+	int N,M;
+	int src,dest,wt;
+	cin>>M;
+	for(int i=0;i<M;i++){
+		cin>>src>>dest>>wt;
+		struct Edge* e=(struct Edge*)malloc(sizeof(struct Edge));
+		e->src=src;
+		e->dest=dest;
+		e->wt=wt;
+		v.push_back(e);
+	}
+
+	sort(v.begin(),v.end(),compare);
+
+	vector<struct Edge*>::iterator it;
+	for(it=v.begin();it!=v.end();it++){
+		struct Edge* e=*it;
+		int x=findParent(e->src,parent);
+		int y=findParent(e->dest,parent);
+	}
+}
+
+
+

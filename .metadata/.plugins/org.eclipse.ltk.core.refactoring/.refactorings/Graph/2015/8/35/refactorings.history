@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Graph/src/DFS_StronglyCConnected.cpp&apos; to &apos;DFS_StronglyConnected.cpp&apos;" description="Rename resource &apos;DFS_StronglyCConnected.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/DFS_StronglyCConnected.cpp" name="DFS_StronglyConnected.cpp" stamp="1440605845884" updateReferences="true"/>
+</session>

@@ -1,0 +1,9 @@
+20:11:50 **** Incremental Build of configuration Debug for project Sorting ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -o Sorting.exe "src\\heapSortSTL.o" "src\\QuickSortVector.o" "src\\QuickSort.o" "src\\BFSVector.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/4.7.3/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file Sorting.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+20:11:50 Build Finished (took 182ms)
+

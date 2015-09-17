@@ -1,0 +1,21 @@
+/*
+ * combinations.cpp
+ *
+ *  Created on: Sep 14, 2015
+ *      Author: user
+ */
+
+#include<iostream>
+using namespace std;
+//Print all possible combinations of r elements in a given array of size n
+
+void combinations(int a[],int data[],int n,int r,int index,int i){
+	if(index==r){
+		for(int j=0;j<r;j++){
+			cout<<data[j]<<endl;
+			return;
+		}
+	}
+
+	data[index]=a[i];
+}

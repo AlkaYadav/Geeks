@@ -1,0 +1,29 @@
+/*
+ * minEleSortedRotated.cpp
+ *
+ *  Created on: Sep 13, 2015
+ *      Author: user
+ */
+
+//Find the minimum element in a sorted and rotated array
+
+int findMinSortedRotated(int a[],int low,int high){
+	int mid=(low+high)/2;
+	if(low>high){
+		return -1;
+	}
+	if(a[mid-1]>a[mid]&& mid==high){
+		return mid;
+	}
+	if(a[mid+1]>a[mid]&&(mid==low || a[mid-1]>a[mid])){
+		return mid;
+	}
+	if(a[mid]>a[mid-1]&& a[mid]>a[mid+1]){
+		return findMinSortedRotated(a,mid+1,high);
+	}
+	if(a[mid]>a[mid-1] && a[mid]<a[mid+1]){
+		return findMinSortedRotated(a,low,mid-1);
+	}
+}
+
+

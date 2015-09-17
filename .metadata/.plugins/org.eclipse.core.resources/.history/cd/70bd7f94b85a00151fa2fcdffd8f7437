@@ -1,0 +1,12 @@
+/*
+ * combinations.cpp
+ *
+ *  Created on: Sep 14, 2015
+ *      Author: user
+ */
+
+//Print all possible combinations of r elements in a given array of size n
+
+void combinations(int a[],int data[],int n,int r,int index){
+
+}

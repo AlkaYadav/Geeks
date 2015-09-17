@@ -1,0 +1,12 @@
+/*
+ * floorCeil.cpp
+ *
+ *  Created on: Aug 18, 2015
+ *      Author: user
+ */
+
+struct node* ceil(struct node* root,int data){
+
+}
+
+

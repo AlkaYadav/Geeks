@@ -1,0 +1,56 @@
+/*
+ * WeightedGraph.cpp
+ *
+ *  Created on: Sep 17, 2015
+ *      Author: user
+ */
+
+#include<queue>
+#include <iostream>
+#include<vector>
+using namespace std;
+void dfsUtil(vector<pair<int,int> > *v,bool *visited,int N,int src,int sum){
+	visited[src]=true;
+	cout<<src<<" ";
+
+	vector<pair<int,int> >::iterator it;
+	for(it=v[src].begin();it!=v[src].end();it++){
+		if(visited[it->first]==false){
+
+			visited[it->first]=true;
+			cout<<"Visited "<<it->first<<endl;
+			sum+=it->first;
+
+			dfsUtil(v,visited, N, it->first, sum);
+		}
+	}
+}
+void dfs(vector<pair<int,int> > *v,int N,int &sum){
+	bool *visited=new bool[N+1];
+	for(int i=1;i<=N;i++){
+			visited[i]=false;
+		}
+		cout<<"In dfs ";
+		for(int i=1;i<=N;i++){
+			if(visited[i]==false){
+				//cout<<"In dfs "<<i<<endl;
+				dfsUtil(v,visited,N,i,sum);
+			}
+		}
+		cout<<"Sum is "<<sum<<endl;
+}
+int main(){
+	int N,M,src,dest,wt;
+	int sum=0;
+	cin>>N>>M;
+	vector<pair<int,int> > v[N+1];
+	for(int i=0;i<M;i++){
+			cout<<"Enter "<<(i+1)<<"edge"<<endl;
+			cin>>src>>dest>>wt;
+			v[src].push_back(make_pair(dest,wt));
+	}
+
+	dfs(v,N,sum);
+
+}
+

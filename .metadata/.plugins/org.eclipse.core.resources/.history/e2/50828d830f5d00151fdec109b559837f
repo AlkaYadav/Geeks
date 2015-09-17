@@ -1,0 +1,36 @@
+/*
+ * Djikstra.cpp
+ *
+ *  Created on: Sep 17, 2015
+ *      Author: user
+ */
+
+#include <iostream>
+#include<stack>
+#include<vector>
+#include<stdlib.h>
+#include<limits.h>
+using namespace std;
+
+struct Edge{
+	int dest;
+	int wt;
+};
+
+int main(){
+	//N is no. of vertices,M i sno. of edges
+
+	int N,M,src,dest,wt,source;
+	cin>>N>>M;
+	vector<struct Edge*> v[N+1];
+	for(int i=0;i<M;i++){
+		cin>>src>>dest>>wt;
+		struct Edge* e=(struct Edge*)malloc(sizeof(struct Edge));
+		e->dest=dest;
+		e->wt=wt;
+		v[src].push_back(e);
+	}
+	cout<<"Enter source for single source shortest path"<<endl;
+	cin>>source;
+
+

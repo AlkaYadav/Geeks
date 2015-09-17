@@ -1,0 +1,43 @@
+/*
+ * segregateEvenOdd.cpp
+ *
+ *  Created on: Sep 10, 2015
+ *      Author: user
+ */
+#include<stdlib.h>
+#include<stdio.h>
+#include<iostream>
+using namespace std;
+struct Node{
+	int data;
+	struct Node* next;
+};
+
+Node* newNode(int data){
+	struct Node* tmp=(struct Node*)malloc(sizeof(struct Node));
+	tmp->data=data;
+	tmp->next=NULL;
+	return tmp;
+}
+void insertAtFront(struct Node** head,int data){
+	if(*head==NULL){
+		*head=newNode(data);
+
+	}
+	else{
+		Node*tmp=newNode(data);
+		tmp->next=*head;
+		*head=tmp;
+	}
+}
+void segregateEvenOdd(struct Node** head){
+	struct Node* curr=*head;
+	struct Node* tmp;
+	while(curr&& (curr->data)%2!=0){
+		tmp=curr;
+		curr=curr->next;
+	}
+}
+
+
+

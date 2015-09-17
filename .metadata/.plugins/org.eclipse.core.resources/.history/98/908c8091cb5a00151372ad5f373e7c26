@@ -1,0 +1,19 @@
+/*
+ * mergeOverlappingIntervals.cpp
+ *
+ *  Created on: Sep 14, 2015
+ *      Author: user
+ */
+#include<iostream>
+#include<limits.h>
+using namespace std;
+
+struct Interval{
+	int start;
+	int end;
+};
+
+void mergeOverlapping(vector<struct Interval> v){
+
+}
+

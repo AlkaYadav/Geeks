@@ -1,0 +1,29 @@
+/*
+ * DFS.cpp
+ *
+ *  Created on: Sep 17, 2015
+ *      Author: user
+ */
+#include<queue>
+#include <iostream>
+using namespace std;
+
+//Implementing DFS using Adjacency Matrix
+
+void dfs(vector<int> *v,int N){
+	bool *visited=new bool[N+1];
+
+}
+int main(){
+	int N,M,src,dest;
+	cin>>N>>M;
+	vector<int> v[N];
+
+	for(int i=0;i<M;i++){
+		cin>>src>>dest;
+		v[src].push_back(dest);
+	}
+	dfs(v,N);
+}
+
+

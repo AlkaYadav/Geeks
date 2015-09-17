@@ -1,0 +1,31 @@
+/*
+ * output.cpp
+ *
+ *  Created on: Sep 3, 2015
+ *      Author: user
+ */
+
+#include <stdio.h>
+#include<stdlib.h>
+#include<iostream>
+using namespace std;
+void func(int a[],char *b){
+    cout<<"A"<<sizeof(a)<<endl;
+    cout<<"B"<<sizeof(b)<<endl;
+}
+int main()
+{
+	int arri[] = {1, 2 ,3};
+	int *ptri = arri;
+
+	char arrc[] = {1, 2 ,3};
+	char *ptrc = arrc;
+    cout<<"In main "<<endl;
+    cout<<"A"<<sizeof(arri)<<endl;
+    cout<<"B"<<sizeof(arrc)<<endl;
+	func(arri,arrc);
+
+	return 0;
+}
+
+

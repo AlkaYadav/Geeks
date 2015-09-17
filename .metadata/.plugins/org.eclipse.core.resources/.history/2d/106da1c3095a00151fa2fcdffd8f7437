@@ -1,0 +1,15 @@
+/*
+ * fourElementsSumUsingPair.cpp
+ *
+ *  Created on: Sep 13, 2015
+ *      Author: user
+ */
+
+struct SumPair{
+	int sum;
+	int first;
+	int second;
+};
+
+
+

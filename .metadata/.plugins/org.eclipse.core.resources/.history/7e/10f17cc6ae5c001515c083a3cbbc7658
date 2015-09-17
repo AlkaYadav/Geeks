@@ -1,0 +1,16 @@
+/*
+ * WeightedGraph.cpp
+ *
+ *  Created on: Sep 17, 2015
+ *      Author: user
+ */
+
+#include<queue>
+#include <iostream>
+using namespace std;
+
+int main(){
+	int N,M,src,dest;
+	cin>>N>>M;
+	vector<pair<int,int> > [N];
+

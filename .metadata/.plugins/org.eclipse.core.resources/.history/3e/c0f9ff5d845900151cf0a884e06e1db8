@@ -1,0 +1,20 @@
+/*
+ * onesSortedArray.cpp
+ *
+ *  Created on: Sep 13, 2015
+ *      Author: user
+ */
+//Count 1’s in a sorted binary array
+
+int countOnes(int arr[],int low,int high){
+	int mid=(low+high)/2;
+	if(low>high){
+		return -1;
+	}
+	if(arr[mid]==1){
+		countOnes(arr,mid,high);
+	}
+}
+
+
+

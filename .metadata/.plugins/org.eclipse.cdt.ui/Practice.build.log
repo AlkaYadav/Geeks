@@ -1,0 +1,12 @@
+15:26:20 **** Incremental Build of configuration Debug for project Practice ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Caesar.o" "..\\src\\Caesar.cpp" 
+..\src\Caesar.cpp: In function 'int main()':
+..\src\Caesar.cpp:4:41: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+..\src\Caesar.cpp:4:41: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+..\src\Caesar.cpp:4:41: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+g++ -o Practice.exe "src\\segregateEvenOdd.o" "src\\reverseInGroups.o" "src\\revAltKNodes.o" "src\\kStacks.o" "src\\isPalindromeList.o" "src\\Practice.o" "src\\MergeSortedLists.o" "src\\LinkedList.o" "src\\Caesar.o" 
+
+15:26:21 Build Finished (took 392ms)
+

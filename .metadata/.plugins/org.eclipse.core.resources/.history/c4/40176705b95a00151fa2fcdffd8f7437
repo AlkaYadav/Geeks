@@ -1,0 +1,38 @@
+/*
+ * combinations.cpp
+ *
+ *  Created on: Sep 14, 2015
+ *      Author: user
+ */
+
+#include<iostream>
+using namespace std;
+//Print all possible combinations of r elements in a given array of size n
+
+void combinations(int a[],int data[],int n,int r,int index,int i){
+	if(index==r){
+		for(int j=0;j<r;j++){
+			cout<<data[j]<<" ";
+
+		}
+		cout<<endl;
+		return;
+
+	}
+
+	data[index]=a[i];
+	combinations(a,data,n,r,index+1,i+1);
+	combinations(a,data,n,r,index,i+1);
+	while(a[i]==a[i+1]){
+		i++;
+	}
+}
+
+
+int main(){
+	int arr[] = {1, 1, 1, 1, 1, 1, 1};
+	int n=sizeof(arr)/sizeof(arr[0]);
+	int r=2;
+	int data[r];
+	cout<<"Index "<<countOnes(arr,0,n-1);
+}

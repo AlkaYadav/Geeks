@@ -1,0 +1,60 @@
+//============================================================================
+// Name        : ArrayProject.cpp
+// Author      : alkayadav
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Find the closest pair from two sorted arrays
+//============================================================================
+
+#include <iostream>
+#include<limits.h>
+using namespace std;
+
+void merge(int arr3[],int ar1[],int ar2[],int arr1_size,int arr2_size,int bool_type[]){
+	int i=0;
+	int j=0;
+	int k=0;
+	while(i<arr1_size&& j<arr2_size){
+		if(ar1[i]<ar2[j]){
+			arr3[k]=ar1[i];
+			bool_type[k]=1;
+			i++;
+			k++;
+		}
+		else{
+			arr3[k]=ar2[j];
+			bool_type[k]=2;
+			j++;
+			k++;
+		}
+	}
+
+	if(i<arr1_size){
+		arr3[k]=ar1[i];
+		bool_type[k]=1;
+					i++;
+					k++;
+	}
+	if(j<arr2_size){
+		arr3[k]=ar2[j];
+		bool_type[k]=2;
+					j++;
+					k++;
+	}
+}
+
+void findClosestPair(int ar3[],int tot_size,int x,int bool_type[]){
+	int min_diff=INT_MAX;
+}
+int main() {
+	int ar1[] = {1, 4, 5, 7};
+	int ar2[] = {10, 20, 30, 40};
+	int x = 32;
+	int arr1_size=sizeof(ar1)/sizeof(ar1[0]);
+	int arr2_size=sizeof(ar2)/sizeof(ar2[0]);
+	int ar3[arr1_size+arr2_size]={0};
+	int bool_type[arr1_size+arr2_size]={-1};
+	merge(ar3,ar1,ar2,arr1_size,arr2_size,bool_type);
+	findClosestPair(ar3,arr1_size+arr2_size,x,bool_type);
+	return 0;
+}

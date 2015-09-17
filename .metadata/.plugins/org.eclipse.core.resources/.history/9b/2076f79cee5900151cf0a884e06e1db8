@@ -1,0 +1,23 @@
+/*
+ * countPossibleTriangles.cpp
+ *
+ *  Created on: Sep 13, 2015
+ *      Author: user
+ */
+
+//Count the number of possible triangles
+void countPossibleTriangles(int a[],int n){
+	int count=0;
+	int i=0,j=1,k;
+	while(i<n-2){
+		j=i+1;
+		k=j+1;
+		while(k<n && a[i]+a[j]>a[k]){
+
+				k++;
+
+		}
+	}
+}
+
+

@@ -1,0 +1,11 @@
+//Find the minimum distance between two numbers
+
+void minDist(int a[],int n,int x,int y){
+	int prev=-1;;
+	for(int i=0;i<n;i++){
+		if(a[i]==x|| a[i]==y){
+			prev=i;
+			break;
+		}
+	}
+}

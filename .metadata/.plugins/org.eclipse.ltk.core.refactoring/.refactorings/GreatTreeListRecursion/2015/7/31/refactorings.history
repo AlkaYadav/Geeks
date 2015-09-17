@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;GreatTreeListRecursion/src/GreatListListRecursion.h&apos; to &apos;GreatTreeListRecursion.h&apos;" description="Rename resource &apos;GreatListListRecursion.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/GreatListListRecursion.h" name="GreatTreeListRecursion.h" stamp="1438251357151" updateReferences="true"/>
-</session>

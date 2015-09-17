@@ -1,0 +1,59 @@
+/*
+ * revAltKNodes.cpp
+ *
+ *  Created on: Sep 9, 2015
+ *      Author: user
+ */
+#include<stdlib.h>
+#include<stdio.h>
+#include<iostream>
+using namespace std;
+struct Node{
+	int data;
+	struct Node* next;
+};
+
+Node* newNode(int data){
+	struct Node* tmp=(struct Node*)malloc(sizeof(struct Node));
+	tmp->data=data;
+	tmp->next=NULL;
+	return tmp;
+}
+void insertAtFront(struct Node** head,int data){
+	if(*head==NULL){
+		*head=newNode(data);
+
+	}
+	else{
+		Node*tmp=newNode(data);
+		tmp->next=*head;
+		*head=tmp;
+	}
+}
+struct Node* revAltKNodes(struct Node* head,int k){
+	struct Node* curr=head;
+	struct Node* next=NULL;
+	struct Node* prev=NULL;
+	int cnt=0;
+	while(curr&& cnt<k){
+		next=curr->next;
+		curr->next=prev;
+		prev=curr;
+		curr=next;
+		cnt++;
+	}
+
+	if(head)
+	head->next=curr;
+	cnt=0;
+	while(cnt<k&& curr){
+		curr=curr->next;
+		cnt++;
+	}
+	if(curr){
+		curr->next=revAltKNodes(curr->next,k);
+	}
+
+}
+
+

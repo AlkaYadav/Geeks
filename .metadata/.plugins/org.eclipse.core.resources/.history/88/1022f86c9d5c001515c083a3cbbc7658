@@ -1,0 +1,17 @@
+/*
+ * BFS.cpp
+ *
+ *  Created on: Sep 16, 2015
+ *      Author: user
+ */
+#include<queue>
+#include <iostream>
+using namespace std;
+
+int main(){
+	int N,M;
+	cin>>N>>M;
+
+}
+
+

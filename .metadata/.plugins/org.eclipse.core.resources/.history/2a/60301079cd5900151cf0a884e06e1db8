@@ -1,0 +1,20 @@
+/*
+ * subArraySumZero.cpp
+ *
+ *  Created on: Sep 13, 2015
+ *      Author: user
+ */
+//Find if there is a subarray with 0 sum
+#include<iostream>
+#include<limits.h>
+#include<map>
+using namespace std;
+void subArray(int a[],int n){
+	map<int,int> m;
+	int sum=a[0];
+	m[sum]=0;
+
+}
+
+
+

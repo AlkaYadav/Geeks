@@ -1,0 +1,14 @@
+/*
+ * maxjMinusi.cpp
+ *
+ *  Created on: Sep 15, 2015
+ *      Author: user
+ */
+
+//Given an array arr[], find the maximum j – i such that arr[j] > arr[i]
+void findMax(int a[],int n){
+	int lMin[n];
+	int rMax[n];
+}
+
+

@@ -1,0 +1,23 @@
+//============================================================================
+// Name        : IMP.cpp
+// Author      : alkayadav
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+struct edge{
+	int dest;
+	int wt;
+};
+
+int main(){
+	int N,M;
+	cout<<"Enter the no. of vertices and edges "<<endl;
+	cin>>N>>M;
+	vector<struct edge> v[N];
+	cin>>N>>M;
+}

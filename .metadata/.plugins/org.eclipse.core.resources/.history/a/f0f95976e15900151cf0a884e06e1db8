@@ -1,0 +1,19 @@
+/*
+ * countDistinctPairs.cpp
+ *
+ *  Created on: Sep 13, 2015
+ *      Author: user
+ */
+//Count all distinct pairs with difference equal to k
+#include<iostream>
+#include<limits.h>
+#include<map>
+#include<algorithm>
+using namespace std;
+void countDistictPairsWithSumK(int a[],int n,int k){
+	map<int,int> m;
+
+}
+
+
+

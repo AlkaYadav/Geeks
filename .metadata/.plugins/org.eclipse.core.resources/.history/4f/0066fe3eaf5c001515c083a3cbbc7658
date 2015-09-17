@@ -1,0 +1,23 @@
+/*
+ * WeightedGraph.cpp
+ *
+ *  Created on: Sep 17, 2015
+ *      Author: user
+ */
+
+#include<queue>
+#include <iostream>
+#include<vector>
+using namespace std;
+
+int main(){
+	int N,M,src,dest,wt;
+	cin>>N>>M;
+	vector<pair<int,int> > v[N];
+	for(int i=0;i<M;i++){
+			cout<<"Enter "<<(i+1)<<"edge"<<endl;
+			cin>>src>>dest>>wt;
+			v[src].push_back(make_pair(dest,wt));
+
+}
+

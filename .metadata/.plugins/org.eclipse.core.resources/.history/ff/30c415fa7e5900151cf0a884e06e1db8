@@ -1,0 +1,36 @@
+//============================================================================
+// Name        : ArrayProject.cpp
+// Author      : alkayadav
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Find the closest pair from two sorted arrays
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+void merge(int arr3[],int ar1[],int ar2[],int arr1_size,int arr2_size){
+	int i=0;
+	int j=0;
+	int k=0;
+	while(i<arr1_size&& j<arr2_size){
+		if(ar1[i]<ar2[j]){
+			arr3[k++]=ar1[i];
+			i++;
+		}
+		else{
+			arr3[k++]=ar2[j];
+			j++;
+		}
+	}
+}
+int main() {
+	int ar1[] = {1, 4, 5, 7};
+	int ar2[] = {10, 20, 30, 40};
+	int x = 32;
+	int arr1_size=sizeof(ar1)/sizeof(ar1[0]);
+	int arr2_size=sizeof(ar2)/sizeof(ar2[0]);
+	int ar3[arr1_size+arr2_size]={0};
+	merge(arr3,ar1,ar2,arr1_size,arr2_size);
+	return 0;
+}

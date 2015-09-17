@@ -1,0 +1,12 @@
+/*
+ * SortedPivotedArraySearch.cpp
+ *
+ *  Created on: Aug 30, 2015
+ *      Author: user
+ */
+
+void sortedPivotedSearch(int arr[],int n){
+	int pivot=findPivot(arr,0,n-1);
+}
+
+

@@ -1,0 +1,46 @@
+/*
+ * Caesar.cpp
+ *
+ *  Created on: Sep 11, 2015
+ *      Author: user
+ */
+
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+bool isSmallAlphabet(char a){
+    return (a>='a'&& a<='z');
+}
+bool isBigAlphabet(char a){
+    return (a>='A'&& a<='Z');
+}
+int main() {
+    int N;
+    char *s;
+    int K;
+    cin>>N;
+    for(int i=0;i<N;i++){
+        cin>>s[i];
+    }
+    cin>>K;
+    int a='a';
+    int A='A';
+    for(int i=0;i<N;i++){
+        if(isSmallAlphabet(s[i])){
+            s[i]=(s[i]-'0'+K)%a;
+        }
+        else if(isBigAlphabet(s[i])){
+            s[i]=(s[i]-'0'+K)%A;
+        }
+    }
+    for(int i=0;i<N;i++){
+        cout<<s[i];
+    }
+    return 0;
+}
+
+

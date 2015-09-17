@@ -1,0 +1,17 @@
+/*
+ * GenerateBinaryNumbers.cpp
+ *
+ *  Created on: Aug 20, 2015
+ *      Author: user
+ */
+
+#include<queue>
+#include<string.h>
+using namespace std;
+//An Interesting Method to Generate Binary Numbers from 1 to n
+
+void generateBinaryNumbers(int n){
+	queue<string> q;
+}
+
+

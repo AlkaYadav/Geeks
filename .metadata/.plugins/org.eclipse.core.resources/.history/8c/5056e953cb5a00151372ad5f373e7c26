@@ -1,0 +1,64 @@
+/*
+ * rearrangePositiveNegative.cpp
+ *
+ *  Created on: Sep 14, 2015
+ *      Author: user
+ */
+
+//Rearrange positive and negative numbers in O(n) time and O(1) extra space
+#include<iostream>
+#include<limits.h>
+using namespace std;
+
+void swap(int *a,int *b){
+	int tmp=*a;
+	*a=*b;
+	*b=tmp;
+}
+void rearrangePositiveNegative(int a[],int n){
+	int l=-1;
+	for(int i=0;i<n;i++){
+		if(a[i]<0){
+			swap(&a[l+1],&a[i]);
+			l++;
+		}
+	}
+
+	int i=0;
+	l++;
+	while(i<n && l<n){
+		if(a[i]<0){
+			swap(&a[i],&a[l]);
+			l=l+1;
+		}
+		i=i+2;
+	}
+}
+
+void findMaxRepeating(int a[],int n,int k){
+	for(int i=0;i<n;i++){
+		a[a[i]%k]+=k;
+	}
+
+	int max_rep=INT_MIN;
+	int max_indx;
+	for(int i=0;i<k;i++){
+		if(a[i]>max_rep){
+			max_rep=a[i];
+			max_indx=i;
+		}
+	}
+	cout<<"Max repeatin is "<<max_indx<<endl;
+}
+int main()
+{
+    int arr[] = {2, 3, 3, 5, 3, 4, 1, 7};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    rearrangePositiveNegative(arr, n);
+    for(int i=0;i<n;i++){
+    	cout<<arr[i]<<" ";
+    }
+
+    findMaxRepeating(arr,n,8);
+    return 0;
+}

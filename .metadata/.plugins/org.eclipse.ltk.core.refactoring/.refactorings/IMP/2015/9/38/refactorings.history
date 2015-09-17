@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IMP/src/Dijkstra.cpp&apos; to &apos;Dijkstra_Final.cpp&apos;" description="Rename resource &apos;Dijkstra.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Dijkstra.cpp" name="Dijkstra_Final.cpp" stamp="1442484882240" updateReferences="true"/>
+</session>

@@ -1,0 +1,35 @@
+/*
+ * CustomizedGraph.cpp
+ *
+ *  Created on: Sep 17, 2015
+ *      Author: user
+ */
+#include<queue>
+#include <iostream>
+#include<stdlib.h>
+#include<vector>
+using namespace std;
+
+struct Edge{
+	int dest;
+	int cost;
+	int dist;
+};
+
+
+int main(){
+		int N,M,src,wt;
+		int dest;
+			int cost;
+			int dist;
+		int sum=0;
+		cin>>N>>M;
+		vector<struct Edge*> v[N];
+		for(int i=0;i<M;i++){
+			cin>>dest;
+			cin>>cost;
+			cin>>dist;
+			struct Edge *e=(struct Edge *)malloc(sizeof(struct Edge));
+			v[i].push_back()
+		}
+}

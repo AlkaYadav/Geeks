@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Traversal/src/Traversal.cpp&apos; to &apos;LevelOrderTraversal.cpp&apos;" description="Rename resource &apos;Traversal.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Traversal.cpp" name="LevelOrderTraversal.cpp" stamp="1438303930138" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Traversal/src/Traversal.h&apos; to &apos;LevelOrderTraversal.h&apos;" description="Rename resource &apos;Traversal.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Traversal.h" name="LevelOrderTraversal.h" stamp="1438303940279" updateReferences="true"/>
-</session>

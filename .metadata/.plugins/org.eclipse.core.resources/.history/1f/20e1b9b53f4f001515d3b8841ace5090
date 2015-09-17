@@ -1,0 +1,28 @@
+/*
+ * SortedPivotedArraySearch.cpp
+ *
+ *  Created on: Aug 30, 2015
+ *      Author: user
+ */
+
+int findPivot(int arr[],int start,int end){
+	int mid=(start+end)/2;
+	if(start>end){
+		return -1;
+	}
+	if(arr[mid]>arr[mid+1]){
+		return mid;
+	}
+	else{
+		return findPivot(arr,mid+1,end);
+	}
+}
+void sortedPivotedSearch(int arr[],int n){
+	int pivot=findPivot(arr,0,n-1);
+}
+
+
+int main(){
+	int arr[]={3,4,5,1,2};
+
+}

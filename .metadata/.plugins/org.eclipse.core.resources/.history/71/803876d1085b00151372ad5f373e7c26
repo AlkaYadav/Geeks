@@ -1,0 +1,14 @@
+/*
+ * minDistTwoNumbers.cpp
+ *
+ *  Created on: Sep 14, 2015
+ *      Author: user
+ */
+
+//Find the minimum distance between two numbers
+
+void findMinDist(int a[],int n,int x,int y){
+
+}
+
+

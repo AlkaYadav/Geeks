@@ -1,0 +1,19 @@
+/*
+ * countingSort.cpp
+ *
+ *  Created on: Sep 13, 2015
+ *      Author: user
+ */
+
+void countingSort(int a[],int n,int k){
+	int count[k];
+	for(int i=0;i<k;i++){
+		count[i]=0;
+	}
+	for(int i=0;i<n;i++){
+		count[a[i]]++;
+	}
+
+}
+
+

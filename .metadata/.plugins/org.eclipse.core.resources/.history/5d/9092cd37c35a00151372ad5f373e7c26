@@ -1,0 +1,13 @@
+/*
+ * numberOfIslands.cpp
+ *
+ *  Created on: Sep 14, 2015
+ *      Author: user
+ */
+#define ROW 5
+#define COL 5
+#include<iostream>
+using namespace std;
+int numberOfIslands(int mat[][COL])
+
+

@@ -1,0 +1,14 @@
+/*
+ * CustomizedGraph.cpp
+ *
+ *  Created on: Sep 17, 2015
+ *      Author: user
+ */
+
+struct Edge{
+	int dest;
+	int cost;
+	int dist;
+};
+
+

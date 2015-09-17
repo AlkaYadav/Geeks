@@ -1,0 +1,27 @@
+/*
+ * DuplicateAtK.cpp
+ *
+ *  Created on: Sep 4, 2015
+ *      Author: user
+ */
+
+#include<map>
+using namespace std;
+
+void duplicateAtK(int arr[],int k,int n){
+	map<int,int> map1;
+	int count=1;
+	for(int i=0;i<n;i++){
+		if(map[i]){
+			cout<<"Duplicate for number exists for "<<i<<endl;
+		}
+		if(count==k){
+			map1[i-k]=0;
+			count=0;
+		}
+		else{
+			map[arr[i]]=1;
+			count++;
+		}
+	}
+}

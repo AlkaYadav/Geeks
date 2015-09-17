@@ -1,0 +1,19 @@
+/*
+ * Kruskal.cpp
+ *
+ *  Created on: Sep 17, 2015
+ *      Author: user
+ */
+//Kruskal’s Minimum Spanning Tree Algorithm
+
+struct Edge{
+	int src;
+	int dest;
+	int wt;
+};
+int main(){
+
+}
+
+
+

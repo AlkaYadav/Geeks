@@ -1,0 +1,29 @@
+/*
+ * numberOfIslands.cpp
+ *
+ *  Created on: Sep 14, 2015
+ *      Author: user
+ */
+#define ROW 5
+#define COL 5
+#include<iostream>
+using namespace std;
+void
+int numberOfIslands(int mat[ROW][COL]){
+	int visited[ROW][COL];
+	for(int i=0;i<ROW;i++){
+		for(int j=0;j<COL;j++){
+			visited[i][j]=0;
+		}
+	}
+
+	for(int i=0;i<ROW;i++){
+		for(int j=0;j<COL;j++){
+			if(mat[i][j]&&!visited[i][j]){
+				DFS(mat,i,j,visited);
+			}
+		}
+	}
+}
+
+

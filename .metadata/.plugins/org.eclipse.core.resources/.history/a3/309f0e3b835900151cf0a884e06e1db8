@@ -1,0 +1,18 @@
+/*
+ * distinctEle.cpp
+ *
+ *  Created on: Sep 13, 2015
+ *      Author: user
+ */
+//Print All Distinct Elements of a given integer array
+#include <map>
+using namespace std;
+void printDuistinct(int arr[],int n){
+	map<int,int> m;
+	for(int i=0;i<n;i++){
+		m[arr[i]]+=1;
+	}
+}
+
+
+

@@ -1,0 +1,51 @@
+/*
+ * Itinary.cpp
+ *
+ *  Created on: Sep 4, 2015
+ *      Author: user
+ */
+#include<string>
+#include<map>
+#include<iostream>
+using namespace std;
+
+void findItinary(char *str1[],char* str2[],int len){
+	//Create map of two strings
+	map<string,string> mapHash;
+	map<string,string> revmapHash;
+	map<string,string>::iterator it1;
+	for(int i=0;i<len;i++){
+		mapHash[str1[i]]=str2[i];
+	}
+
+	//ReverseMap
+
+	for(it1=mapHash.begin();it1!=mapHash.end();it1++){
+		revmapHash[it1->second]=it1->first;
+	}
+
+	cout<<"Map contents are:"<<endl;
+	for(it1=mapHash.begin();it1!=mapHash.end();it1++){
+			cout<<mapHash[it1->first]<<" "<<mapHash[it1->second]<<endl;
+		}
+	cout<<"----------------------------------------------------"<<endl;
+	cout<<"Reverse map contenets"<<endl;
+	for(it1=revmapHash.begin();it1!=revmapHash.end();it1++){
+			cout<<revmapHash[it1->second]<<"   "<<revmapHash[it1->first]<<endl;
+		}
+	//Compare map and reverse
+
+	for(it1=mapHash.begin();it1!=mapHash.end();it1++){
+		if(revmapHash[it1->second]=="NULL"){
+			cout<<endl<<revmapHash[it1->first]<<"is the source"<<endl;
+		}
+	}
+}
+
+int main(){
+	 char *str1[]={"Chennai","Bombay","Goa","Delhi"};
+	 char *str2[]={"Banglore","Delhi","Chennai","Goa"};
+	int len=sizeof(str1)/sizeof(str1[0]);
+	cout<<"String length is "<<len<<endl;
+	findItinary(str1,str2,len);
+}

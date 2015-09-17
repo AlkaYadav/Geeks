@@ -1,0 +1,8 @@
+01:08:00 **** Incremental Build of configuration Debug for project IMP ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.cpp" 
+g++ -o IMP.exe "src\\testing.o" "src\\WeightedGraph.o" "src\\SingleSourceShortestPath.o" "src\\Prim.o" "src\\Kruskal.o" "src\\FloyddWarshall.o" "src\\Dijkstra_Final.o" "src\\DFS.o" "src\\CustomizedGraph.o" "src\\BellmanFord.o" "src\\BFS.o" 
+
+01:08:03 Build Finished (took 2s.438ms)
+

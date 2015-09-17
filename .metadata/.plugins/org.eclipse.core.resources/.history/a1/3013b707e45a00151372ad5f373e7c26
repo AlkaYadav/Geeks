@@ -1,0 +1,75 @@
+/*
+ * sortKSortedArray.cpp
+ *
+ *  Created on: Sep 14, 2015
+ *      Author: user
+ */
+
+//Sort a nearly sorted (or K sorted) array
+#include<iostream>
+#include<limits.h>
+#include<algorithm>
+#include<vector>
+#include<stack>
+#include<map>
+#include<functional>
+using namespace std;
+
+void printVector(vector<int> heap){
+	cout<<endl<<"Vector is "<<endl;
+	for(int i=0;i<heap.size();i++){
+		cout<<heap[i]<<" ";
+	}
+	cout<<endl;
+}
+void sortedK(int arr[],int n,int k){
+	int result[n];
+	vector<int> v(arr,arr+k+1);
+	int indx=0;
+	make_heap(v.begin(),v.end(),greater<int>());
+	cout<<"After making heap "<<endl;
+	printVector(v);
+
+	for(int i=k+1;i<n;i++){
+	cout<<"The fron ele is "<<v.front();
+	result[indx++]=v.front();
+	pop_heap(v.begin(),v.end(),greater<int>());
+	v.pop_back();
+
+	}
+
+}
+void sortKSortedArray(int arr[],int n,int k){
+	vector<int> v(arr,arr+k+1);
+	make_heap(v.begin(),v.end());
+	cout<<"Initial "<<v.front()<<endl;
+	sort_heap(v.begin(),v.end());
+	for(int i=k+1;i<n;i++){
+		cout<<"Front is "<<v.front()<<endl;
+		pop_heap(v.begin(),v.end(),greater<int>());
+		v.pop_back();
+		v.push_back(arr[i]);
+		push_heap(v.begin(),v.end(),greater<int>());
+		sort_heap(v.begin(),v.end());
+	}
+
+	cout << "Following is sorted array\n";
+	for(int i=0;i<n;i++){
+		cout<<arr[i]<<" ";
+	}
+	cout<<endl;
+}
+
+
+int main()
+{
+    int k = 3;
+    int arr[] = { 6,2, 3, 12, 56, 8};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    //sortKSortedArray(arr, n, k);
+
+    sortedK(arr,n,k);
+   // printArray (arr, n);
+
+    return 0;
+}

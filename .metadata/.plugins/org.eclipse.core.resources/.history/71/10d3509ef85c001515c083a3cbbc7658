@@ -1,0 +1,23 @@
+/*
+ * SingleSourceShortestPath.cpp
+ *
+ *  Created on: Sep 17, 2015
+ *      Author: user
+ */
+//Shortest Path in Directed Acyclic Graph
+#include <iostream>
+using namespace std;
+struct Edge{
+	int dest;
+	int wt;
+};
+int main(){
+	//N is no. of vertices,M i sno. of edges
+
+	int N,M,src;
+	cin>>N;
+
+}
+
+
+

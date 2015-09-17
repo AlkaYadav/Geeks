@@ -1,0 +1,20 @@
+22:13:54 **** Incremental Build of configuration Debug for project Important ****
+make all 
+'Building file: ../src/Important.cpp'
+'Invoking: GCC C++ Compiler'
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Important.d" -MT"src/Important.d" -o "src/Important.o" "../src/Important.cpp"
+'Finished building: ../src/Important.cpp'
+' '
+'Building file: ../src/testing.cpp'
+'Invoking: GCC C++ Compiler'
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testing.d" -MT"src/testing.d" -o "src/testing.o" "../src/testing.cpp"
+'Finished building: ../src/testing.cpp'
+' '
+'Building target: Important'
+'Invoking: MacOS X C++ Linker'
+g++  -o "Important"  ./src/Important.o ./src/testing.o   
+'Finished building target: Important'
+' '
+
+22:13:56 Build Finished (took 2s.235ms)
+

@@ -1,0 +1,46 @@
+/*
+ * correctTheBST.cpp
+ *
+ *  Created on: Aug 17, 2015
+ *      Author: user
+ */
+
+#include<iostream>
+#include<stdlib.h>
+using namespace std;
+
+struct node{
+	int data;
+	struct node* left;
+	struct node* right;
+};
+
+struct node* newNode(int data){
+	struct node* newinsnode=(struct node*)malloc(sizeof(struct node));
+	newinsnode->data=data;
+	newinsnode->left=NULL;
+	newinsnode->right=NULL;
+	return newinsnode;
+}
+
+void correctTheBST(struct node* root,struct node** prev,struct node** first,struct node** last,struct node** mid){
+	if(root==NULL){
+		return;
+	}
+	if(prev){
+		if((*prev)->data>root->data){
+			if(!first){
+				first=prev;
+				mid=root;
+			}
+			else{
+				last=root;
+			}
+		}
+	}
+
+		prev=root;
+}
+
+
+

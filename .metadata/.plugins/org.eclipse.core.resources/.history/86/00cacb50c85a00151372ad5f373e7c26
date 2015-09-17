@@ -1,0 +1,47 @@
+/*
+ * rearrangePositiveNegative.cpp
+ *
+ *  Created on: Sep 14, 2015
+ *      Author: user
+ */
+
+//Rearrange positive and negative numbers in O(n) time and O(1) extra space
+#include<iostream>
+using namespace std;
+
+void swap(int *a,int *b){
+	int *tmp=a;
+	*a=*b;
+	*b=tmp;
+}
+void rearrangePositiveNegative(int a[],int n){
+	int l=-1;
+	for(int i=0;i<n;i++){
+		if(a[i]<0){
+			swap(&a[l+1],&a[i]);
+			l++;
+		}
+	}
+	int pos=l;//Position of last -ve number
+	int i=0;
+	l++;
+	while(i<n && l<n){
+		if(a[i]<0){
+			swap(&a[i],&a[l]);
+			l=l+1;
+		}
+		i=i+2;
+	}
+}
+
+
+int main()
+{
+    int arr[] = {-1, 2, -3, 4, 5, 6, -7, 8, 9};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    rearrangePositiveNegative(arr, n);
+    for(int i=0;i<n;i++){
+    	cout<<arr[i]<<" ";
+    }
+    return 0;
+}

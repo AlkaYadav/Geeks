@@ -1,0 +1,15 @@
+/*
+ * maxProdSubarray.cpp
+ *
+ *  Created on: Sep 14, 2015
+ *      Author: user
+ */
+
+//Maximum Product Subarray for both +ve and -ve integers
+//{6, -3, -10, 0, 2}
+
+void max_product_subarray(int a[],int n){
+
+}
+
+

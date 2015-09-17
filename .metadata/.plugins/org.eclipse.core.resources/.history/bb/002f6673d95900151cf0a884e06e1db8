@@ -1,0 +1,18 @@
+/*
+ * sortArrayOrderBySecond.cpp
+ *
+ *  Created on: Sep 13, 2015
+ *      Author: user
+ */
+
+//Sort an array according to the order defined by another array
+
+#include<iostream>
+#include<limits.h>
+#include<map>
+using namespace std;
+void sortAccording(int a1[],int a2[],int s1,int s2){
+
+}
+
+

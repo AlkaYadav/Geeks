@@ -1,0 +1,34 @@
+/*
+ * largestSubArraySumZero.cpp
+ *
+ *  Created on: Sep 14, 2015
+ *      Author: user
+ */
+
+//Largest subarray with equal number of 0s and 1s
+
+void largestSubArray(int a[0],int n){
+	map<int,int> m;
+	for(int i=0;i<n;i++){
+		if(a[i]==0){
+			a[i]=-1;
+		}
+	}
+
+	int sum=0;
+	int sumLeft[n];
+	sumLeft[0]=a[0];
+
+	for(int i=1;i<n;i++){
+		sum+=a[i];
+		sumLeft[i]=sum;
+	}
+
+	int maxsize=-1;
+	for(int i=0;i<n;i++){
+		m[sumLeft[i]]=i;
+	}
+}
+
+
+

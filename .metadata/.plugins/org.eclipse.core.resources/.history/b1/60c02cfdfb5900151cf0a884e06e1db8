@@ -1,0 +1,36 @@
+/*
+ * countingSort.cpp
+ *
+ *  Created on: Sep 13, 2015
+ *      Author: user
+ */
+
+void countingSort(int a[],int n,int k){
+	int count[k];
+	int output[n];
+	for(int i=0;i<k;i++){
+		count[i]=0;
+	}
+	for(int i=0;i<n;i++){
+		count[a[i]]++;
+	}
+	for(int i=1;i<k;i++){
+		count[i]+=count[i-1];
+	}
+	for(int i=0;i<n;i++){
+		output[count[a[i]]-1]=a[i];
+		count[a[i]]--;
+	}
+	for(int i=0;i<n;i++){
+		a[i]=output[i];
+	}
+}
+
+
+int main(){
+	int ar1[] = {1, 4, 1, 2, 7, 5, 2};
+
+	int n1=sizeof(ar1)/sizeof(ar1[0]);
+ int k=10;
+	countingSort(ar1,n1,k);
+}

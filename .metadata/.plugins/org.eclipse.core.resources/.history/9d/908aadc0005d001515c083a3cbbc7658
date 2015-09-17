@@ -1,0 +1,36 @@
+/*
+ * BellmanFord.cpp
+ *
+ *  Created on: Sep 17, 2015
+ *      Author: user
+ */
+
+
+//shortest paths from src to all vertices in the given graph. The graph may contain negative weight edges.
+
+#include <iostream>
+#include<stack>
+#include<vector>
+#include<stdlib.h>
+#include<limits.h>
+using namespace std;
+
+struct Edge{
+	int dest;
+	int wt;
+};
+int main(){
+	int N,M,src,dest,wt;
+	int source;
+	cin>>N>>M;
+	vector<struct Edge*> v[N+1];
+	for(int i=0;i<M;i++){
+		cin>>src>>dest>>wt;
+		struct Edge *e=(struct Edge*)malloc(sizeof(struct Edge));
+		e->dest=dest;
+		e->wt=wt;
+		v[src].push_back(e);
+	}
+}
+
+

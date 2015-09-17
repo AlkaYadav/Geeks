@@ -1,0 +1,81 @@
+/*
+ * BellmanFord.cpp
+ *
+ *  Created on: Sep 17, 2015
+ *      Author: user
+ */
+
+
+//shortest paths from src to all vertices in the given graph. The graph may contain negative weight edges.
+
+#include <iostream>
+#include<stack>
+#include<vector>
+#include<stdlib.h>
+#include<limits.h>
+using namespace std;
+
+struct Edge{
+	int dest;
+	int wt;
+};
+int main(){
+	int N,M,src,dest,wt;
+	int source;
+	cin>>N>>M;
+	vector<struct Edge*> v[N+1];
+	for(int i=0;i<M;i++){
+		cin>>src>>dest>>wt;
+		struct Edge *e=(struct Edge*)malloc(sizeof(struct Edge));
+		e->dest=dest;
+		e->wt=wt;
+		v[src].push_back(e);
+	}
+
+
+
+	int dist[N+1];
+	for(int k=1;k<=N;k++){
+		dist[k]=INT_MAX;
+	}
+	cout<<"Enter source "<<endl;
+	cin>>source;
+	dist[source]=0;
+	for(int j=1;j<=N-1;j++){
+		vector<struct Edge*>::iterator it;
+		for(int i=1;i<=N;i++){
+			if(dist[i]!=INT_MAX){
+			for(it=v[i].begin();it!=v[i].end();i++){
+				struct Edge *e=*it;
+				if(dist[e->dest]>dist[i]+e->wt){
+					dist[e->dest]=dist[i]+e->wt;
+				}
+			}
+		}
+		}
+	}
+
+	cout<<"Cycle Detection "<<endl;
+
+			vector<struct Edge*>::iterator it;
+			for(int i=1;i<=N;i++){
+				if(dist[i]!=INT_MAX){
+				for(it=v[i].begin();it!=v[i].end();i++){
+					struct Edge *e=*it;
+					if(dist[e->dest]>dist[i]+e->wt){
+						cout<<"Cycle detected"<<endl;
+						break;
+					}
+				}
+			}
+			}
+
+
+	for(int i=1;i<=N;i++){
+		if(dist[i]!=INT_MAX){
+			cout<<endl<<"Dist from "<<source<<" is "<<dist[i]<<endl;
+		}
+	}
+}
+
+

@@ -1,0 +1,40 @@
+/*
+ * countPossibleTriangles.cpp
+ *
+ *  Created on: Sep 13, 2015
+ *      Author: user
+ */
+#include<iostream>
+#include<limits.h>
+#include<map>
+#include<algorithm>
+using namespace std;
+//Count the number of possible triangles
+void countPossibleTriangles(int a[],int n){
+	int count=0;
+	int i=0,j=1,k;
+	while(i<n-2){
+		j=i+1;
+		while(j<n-1){
+		k=j+1;
+
+		while(k<n && a[i]+a[j]>a[k]){
+			k++;
+		}
+		count+=k-j;
+		j++;
+	}
+		i++;
+  }
+}
+
+int main(){
+	int ar1[] = {4, 6, 3, 7};
+
+	int n1=sizeof(ar1)/sizeof(ar1[0]);
+	qsort(ar1,n1,sizeof(ar1[0]),compare);
+	countPossibleTriangles(ar1,n1);
+}
+
+
+

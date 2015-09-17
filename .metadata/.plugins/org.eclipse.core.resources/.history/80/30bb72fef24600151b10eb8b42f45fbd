@@ -1,0 +1,21 @@
+/*
+ * QueueLinkedList.cpp
+ *
+ *  Created on: Aug 20, 2015
+ *      Author: user
+ */
+
+struct DLLNode{
+	int data;
+	struct DLLNode* next;
+	struct DLLNode* prev;
+};
+struct Queue{
+	struct DLLNode* front;
+	struct DLLNode* rear;
+};
+
+void enqueue(struct Queue q,)
+
+
+

@@ -1,0 +1,25 @@
+/*
+ * rearrangePositiveNegative.cpp
+ *
+ *  Created on: Sep 14, 2015
+ *      Author: user
+ */
+
+//Rearrange positive and negative numbers in O(n) time and O(1) extra space
+
+void swap(int *a,int *b){
+	int *tmp=a;
+	*a=*b;
+	*b=tmp;
+}
+void rearrangePositiveNegative(int a[],int n){
+	int l=-1;
+	for(int i=0;i<n;i++){
+		if(a[i]<0){
+			swap(&a[l+1],a[i]);
+			l++;
+		}
+	}
+}
+
+
