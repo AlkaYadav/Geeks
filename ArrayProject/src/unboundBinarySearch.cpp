@@ -1,0 +1,51 @@
+/*
+
+ * unboundBinarySearch.cpp
+ *
+ *  Created on: Sep 14, 2015
+ *      Author: user
+
+//Unbounded Binary Search Example (Find the point where a monotonically increasing function becomes positive first time)
+#include<iostream>
+using namespace std;
+int f(int x){
+	return (x*x - 10*x - 20);
+}
+
+int first(int low,int high){
+	if(low>high){
+		return -1;
+	}
+	int mid=(low+high)/2;
+	if(mid>low && f(mid)>=0&& f(mid-1)<0){
+		return mid;
+	}
+	if(mid==low && f(mid)>0){
+		return mid;
+	}
+	if(f(mid)<0 && f(high)>0){
+	return	first(mid+1,high);
+	}
+
+	return	first(low,mid-1);
+
+}
+int unboundBinarySearch(){
+	int low=0;
+	int high=1;
+	if(f(low)>0)
+		return low;
+	while(f(high)<0){
+		low=high;
+		high=2*high;
+	}
+	cout<<"Value of low and high are "<<low<<" "<<high<<endl;
+	return first(low,high);
+}
+
+int main(){
+	cout<<"First occurence is at "<<unboundBinarySearch();
+}
+
+
+*/
