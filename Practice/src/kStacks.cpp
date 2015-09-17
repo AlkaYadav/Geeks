@@ -1,9 +1,10 @@
 /*
+
  * kStacks.cpp
  *
  *  Created on: Aug 22, 2015
  *      Author: user
- */
+
 
 //Implement k stacks in an array
 #include<iostream>
@@ -82,3 +83,4 @@ int main(){
 	cout<<kstack.pop(2)<<endl;
 
 }
+*/
