@@ -1,9 +1,10 @@
 /*
+
  * Child.cpp
  *
  *  Created on: Sep 21, 2015
  *      Author: user
- */
+
 
 
 #include <cmath>
@@ -40,3 +41,4 @@ int main() {
 }
 
 
+*/
